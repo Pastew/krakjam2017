@@ -1,0 +1,37 @@
+Mono path[0] = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Managed'
+Mono path[1] = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Mono'
+Mono config path = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Mono/etc'
+PlayerConnection initialized from D:/dev/wprowadze do gier/RedWave/bin/game_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55291
+Multi-casting "[IP] 172.20.47.154 [Port] 55291 [Flags] 2 [Guid] 2024111217 [EditorId] 636587799 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-IK3801I) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55291]
+PlayerConnection already initialized - listening to [0.0.0.0:55291]
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 3000 (ID=0x116)
+    Vendor:   Intel
+    VRAM:     848 MB
+    Driver:   21.21.13.6909
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.044 seconds
+Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.327802 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1a28 -> priority: 1 

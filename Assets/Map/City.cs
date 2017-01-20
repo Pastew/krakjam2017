@@ -15,6 +15,7 @@ public class City : MonoBehaviour {
 
     void Start () {
         screenDebug = FindObjectOfType<ScreenDebug>();
+        GetComponentInChildren<TextMesh>().text = name;
 	}
 	
 	void Update () {
