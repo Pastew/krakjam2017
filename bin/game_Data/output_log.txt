@@ -2,10 +2,10 @@ Mono path[0] = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Managed'
 Mono path[1] = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Mono'
 Mono config path = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Mono/etc'
 PlayerConnection initialized from D:/dev/wprowadze do gier/RedWave/bin/game_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55357
-Multi-casting "[IP] 172.20.47.154 [Port] 55357 [Flags] 2 [Guid] 3938602938 [EditorId] 636587799 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-IK3801I) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55357]
-PlayerConnection already initialized - listening to [0.0.0.0:55357]
+PlayerConnection initialized network socket : 0.0.0.0 55218
+Multi-casting "[IP] 172.20.47.154 [Port] 55218 [Flags] 2 [Guid] 2985383088 [EditorId] 636587799 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-IK3801I) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55218]
+PlayerConnection already initialized - listening to [0.0.0.0:55218]
 Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -32,6 +32,78 @@ desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.413328 ms
+UnloadTime: 1.440269 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2a3c -> priority: 1 
+  Thread -> id: 2a4c -> priority: 1 
+You chose antenna
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+AntennaButton:OnMouseUp()
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
+UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
+UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Export/MouseEvents.cs Line: 18)
+
+Map: onmouseup
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Map.cs:18)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
+UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
+UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+ 
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Map.cs Line: 18)
+
+Placing antenna
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Hand.cs:32)
+Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Map.cs:20)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
+UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
+UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+ 
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Hand.cs Line: 32)
+
+Map: onmouseup
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Map.cs:18)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
+UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
+UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+ 
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Map.cs Line: 18)
+
+Placing antenna
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Hand.cs:32)
+Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Map.cs:20)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
+UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
+UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+ 
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Hand.cs Line: 32)
+

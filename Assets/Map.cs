@@ -16,7 +16,6 @@ public class Map : MonoBehaviour {
 
     void OnMouseUp()
     {
-        print("Map: onmouseup");
         hand.placeAntenna();
     }
 }

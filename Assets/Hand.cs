@@ -30,9 +30,9 @@ public class Hand : MonoBehaviour {
 
     public void placeAntenna()
     {
-        print("Placing antenna");
         if (antennaInHand != null)
         {
+            print("Placing antenna");
             antennaInHand.transform.SetParent(antennas.transform);
             antennaInHand.GetComponent<Collider2D>().enabled = true;
             antennaInHand = null;
