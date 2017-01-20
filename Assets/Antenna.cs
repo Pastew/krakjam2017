@@ -25,7 +25,7 @@ public class Antenna : MonoBehaviour {
 
         message += "---Odległość między miastami---\n";
         foreach (City c in cities){
-            float distance = Vector3.Distance(c.transform.position, this.transform.position);
+            float distance = Vector3.Distance(c.transform.position, transform.position);
 
             message += c.getName() + ": " + distance + "\n";
         }
