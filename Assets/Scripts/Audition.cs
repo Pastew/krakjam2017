@@ -9,9 +9,13 @@ public class Audition : MonoBehaviour {
     public bool unlocked = true;
     public int id;
     public string description = "No description provided";
+    public Effect effect;
+
+    private Auditions auditions;
 
     void Start()
     {
+        auditions = FindObjectOfType<Auditions>();
     }
 
     public int GetID()
@@ -27,5 +31,6 @@ public class Audition : MonoBehaviour {
     public void OnAuditionChosen()
     {
         print("I am audition with id " + GetID() + " and i was chosen!");
+        //auditions.RemoveAuditionFromPanel(id);
     }
 }
