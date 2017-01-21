@@ -15,6 +15,8 @@ public class Audition : MonoBehaviour {
     string name = "UnnamedAudition";
 
 
+
+
     void Start () {
         textMesh = GetComponentInChildren<TextMesh>();
         textMesh.text = name;
