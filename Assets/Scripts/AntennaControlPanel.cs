@@ -5,47 +5,65 @@ using UnityEngine;
 
 public class AntennaControlPanel : MonoBehaviour {
 
-    GameObject on, off;
+    AntennaControlPanelOnOff antennaControlPanelOnOff;
+    AntennaControlPanelBroadcastReiceve antennaControlPanelBroadcastReiceve;
     Antenna selectedAntenna = null;
 
 	void Start () {
-        on = gameObject.transform.Find("on").gameObject;
-        off = gameObject.transform.Find("off").gameObject;
-        on.SetActive(false);
-        off.SetActive(false);
+        antennaControlPanelOnOff = GetComponentInChildren<AntennaControlPanelOnOff>();
+        antennaControlPanelBroadcastReiceve = GetComponentInChildren<AntennaControlPanelBroadcastReiceve>();
+        antennaControlPanelOnOff.Hide();
+        antennaControlPanelBroadcastReiceve.Hide();
     }
 
     void Update () {
 		
 	}
 
-    internal void turnOnAntenna()
+    internal void TurnOnAntenna()
     {
-        on.SetActive(true);
-        off.SetActive(false);
         selectedAntenna.turnOn();
     }
 
-    internal void turnOffAntenna()
+    internal void SwitchToReiceve()
     {
-        on.SetActive(false);
-        off.SetActive(true);
+        selectedAntenna.SwitchToReiceve();
+    }
+
+    internal void SwitchToBroadcast()
+    {
+        selectedAntenna.SwitchToBroadcast();
+    }
+
+    internal void TurnOffAntenna()
+    {
         selectedAntenna.turnOff();
     }
 
     public void SetSelectedAntenna(Antenna antenna)
     {
+        antennaControlPanelOnOff.Show();
         transform.Find("name").GetComponent<TextMesh>().text = "Antena " + antenna.getName();
         selectedAntenna = antenna;
         if (antenna.isTurnedOn())
         {
-            on.SetActive(true);
-            off.SetActive(false);
+            antennaControlPanelOnOff.ChangeToON();
         }
         else
         {
-            on.SetActive(false);
-            off.SetActive(true);
+            antennaControlPanelOnOff.ChangeToOFF();
+        }
+
+        antennaControlPanelBroadcastReiceve.Show();
+        transform.Find("name").GetComponent<TextMesh>().text = "Antena " + antenna.getName();
+        selectedAntenna = antenna;
+        if (antenna.isBroadcasting())
+        {
+            antennaControlPanelBroadcastReiceve.ChangeToBroadcast();
+        }
+        else
+        {
+            antennaControlPanelBroadcastReiceve.ChangeToReceive();
         }
     }
 }

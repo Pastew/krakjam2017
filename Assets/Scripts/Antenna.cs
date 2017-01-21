@@ -15,7 +15,7 @@ public class Antenna : MonoBehaviour {
     private int power = 10;
 
     [SerializeField]
-    private bool broadcasting = false;
+    private bool broadcasting = true;
 
     private bool turnedOn = false;
     
@@ -38,6 +38,30 @@ public class Antenna : MonoBehaviour {
         }
 
     }
+
+    internal void SwitchToBroadcast()
+    {
+        broadcasting = true;
+        print("Antena " + antennaName + " switched to broadcast mode");
+    }
+
+    internal void SwitchToReiceve()
+    {
+        broadcasting = false;
+        print("Antena " + antennaName + " switched to receive mode");
+
+    }
+
+    public bool isBroadcasting()
+    {
+        return broadcasting;
+    }
+
+    public bool isReiceving()
+    {
+        return !broadcasting;
+    }
+
     void OnMouseDown()
     {
         if (Input.GetMouseButtonDown(0))
