@@ -16,17 +16,19 @@ public class Timer : MonoBehaviour {
     private float ticks = 0;
     Cities cities;
     Antennas antennas;
+    GameEventManager gameEventManager;
 
     private TextMesh textMesh;
 
     void Start () {
         dateValue = new DateTime(1952, 5, 3, 12, 0, 0);
-        print(dateValue);
+
         InvokeRepeating("Tick", 0, tickEverySeconds);
 
         textMesh = GetComponent<TextMesh>();
         cities = FindObjectOfType<Cities>();
         antennas = FindObjectOfType<Antennas>();
+        gameEventManager = FindObjectOfType<GameEventManager>();
     }
 
     internal DateTime getDate()
@@ -39,6 +41,7 @@ public class Timer : MonoBehaviour {
         UpdateClock();
         cities.TickCities();
         antennas.TickAntennas();
+        gameEventManager.Tick();
     }
 
     private void UpdateClock()

@@ -15,7 +15,7 @@ public class Antennas : MonoBehaviour {
     {
         if (!FindObjectOfType<TransmittionButton>().isTransmitting())
             return;
-        print("33TICKww   ");
+
         foreach (Antenna antenna in antennas)
         {
             if (antenna.isTurnedOn())
