@@ -13,6 +13,9 @@ public class Antennas : MonoBehaviour {
 	
     internal void TickAntennas()
     {
+        if (!FindObjectOfType<TransmittionButton>().isTransmitting())
+            return;
+
         foreach (Antenna antenna in antennas)
         {
             antenna.Tick();

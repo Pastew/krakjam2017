@@ -40,6 +40,7 @@ public class Hand : MonoBehaviour {
             antennaInHand.GetComponent<Collider2D>().enabled = true;
             antennas.RefreshAntennaList();
             antennaInHand.GetComponent<Collider2D>().enabled = true;
+            antennaInHand.GetComponent<Antenna>().OnAntennaPlaced();         
             antennaInHand = null;
         }
     }
