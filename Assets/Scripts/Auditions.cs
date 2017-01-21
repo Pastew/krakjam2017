@@ -72,7 +72,6 @@ public class Auditions : MonoBehaviour {
         newAudition.GetComponentInChildren<Text>().text = audition.GetDescription();
         Button b = newAudition.GetComponent<Button>();
         b.onClick.AddListener(() => { AuditionClicked(audition); });
-
     }
 
     public void AuditionClicked(Audition audition)

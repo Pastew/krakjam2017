@@ -6,7 +6,7 @@ using System;
 public class GameEvent : MonoBehaviour {
 
     public string description;
-    public List<string> affectedCities;
+    public GameObject[] affectedCities;
     public int effect;
     public List<int> auditions = null;
     [Tooltip("Format: yyyy-mm-dd")]
@@ -30,6 +30,17 @@ public class GameEvent : MonoBehaviour {
             AddAuditions(auditions);
         }
         Destroy(gameObject);
+
+        AddEffect();
+    }
+
+    private void AddEffect()
+    {
+        foreach (GameObject go in affectedCities)
+        {
+            City c = go.GetComponent<City>();
+            c.AddEffect(FindObjectOfType<EffectDatabase>().ProduceEffect(effect));
+        }
     }
 
     private void AddAuditions(List<int> auditions)
@@ -37,4 +48,5 @@ public class GameEvent : MonoBehaviour {
         foreach (int i in auditions)
             FindObjectOfType<Auditions>().AddNewAuditionToPanel(i);
     }
+
 }
