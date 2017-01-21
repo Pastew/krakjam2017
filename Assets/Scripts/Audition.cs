@@ -36,4 +36,9 @@ public class Audition : MonoBehaviour {
         auditions.RemoveAuditionFromPanel(idsToRemoveWhenChosen);
         FindObjectOfType<CurrentAuditionHolder>().SetCurrentAudition(this);
     }
+
+    internal Effect GetEffect()
+    {
+        return effect;
+    }
 }

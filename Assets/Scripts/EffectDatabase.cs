@@ -19,7 +19,7 @@ public class EffectDatabase : MonoBehaviour {
 		
 	}
 
-    internal Effect GetEffect(int v)
+    internal Effect ProduceEffect(int v)
     {
         return new Effect1();
     }

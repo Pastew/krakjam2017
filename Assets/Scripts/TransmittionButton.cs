@@ -24,10 +24,12 @@ public class TransmittionButton : MonoBehaviour {
         if (currentSprite.Equals(onSprite))
         {
             GetComponent<SpriteRenderer>().sprite = offSprite;
+            ChangeToON();
         }
         else
         {
             GetComponent<SpriteRenderer>().sprite = onSprite;
+            ChangeToON();
         }
     }
 
@@ -35,14 +37,17 @@ public class TransmittionButton : MonoBehaviour {
     {
         return transmitting;
     }
+
     public void ChangeToON()
     {
         GetComponent<SpriteRenderer>().sprite = onSprite;
+        transmitting = true;
     }
 
     public void ChangeToOFF()
     {
         GetComponent<SpriteRenderer>().sprite = offSprite;
+        transmitting = false;
     }
 
 }

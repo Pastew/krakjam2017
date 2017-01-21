@@ -16,7 +16,7 @@ public class Effect1 : Effect {
     {
         if (counter >= lifeTime)
         {
-            city.removeEffect(this);
+            city.RemoveEffect(id);
             return false;
         }
 

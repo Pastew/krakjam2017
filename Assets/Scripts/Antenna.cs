@@ -55,7 +55,7 @@ public class Antenna : MonoBehaviour {
 
     private void PopulateInfoPanel()
     {
-        string message = "Zasięg anteny: " + radius + "km\n";
+        string message = "Zasięg: " + radius + "km\n";
         City[] cities = FindObjectOfType<Cities>().GetCites();
 
         print("---Odległość między miastami---");
@@ -145,6 +145,7 @@ public class Antenna : MonoBehaviour {
 
     public void Tick()
     {
+        print("Antenna tick");
         if (isBroadcasting())
             affectCities();
 
@@ -154,6 +155,7 @@ public class Antenna : MonoBehaviour {
 
     private void affectCities()
     {
+        print("Antenna affectCities");
         City[] cities = FindObjectOfType<Cities>().GetCites();
 
         foreach (City c in cities)
@@ -161,9 +163,17 @@ public class Antenna : MonoBehaviour {
             float distancekm = Utils.Distance2DinKm(c.transform.position, transform.position);
             if (distancekm <= radius)
             {
-
+                print("Antenna affect City " + c.name);
+                AffectCity(c);
             }
         }
+    }
+
+    private void AffectCity(City c)
+    {
+        Effect effect = FindObjectOfType<CurrentAuditionHolder>().GetCurrentAudition().GetEffect();
+
+        c.AddEffect(effect);
     }
 
     private void searchForSpies()

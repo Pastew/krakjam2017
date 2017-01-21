@@ -17,29 +17,30 @@ public class City : MonoBehaviour {
     private int offset;
     private double ownMood;
 
-    private List<Effect> effects;
+    private Dictionary<int, Effect> effectsDict;
 
+    private List<int> effectsToRemoveBeforeNextRound;
 
-    internal void removeEffect(Effect effectToRemove)
+    public void RemoveEffect(int id)
     {
-        effects.Remove(effectToRemove);
+        effectsToRemoveBeforeNextRound.Add(id);
     }
 
     void Start () {
         infoPanel = FindObjectOfType<InfoPanel>();
         GetComponentInChildren<TextMesh>().text = gameObject.name;
-        this.setMood(0);
+        setMood(0);
 
         float d = population / 10000 * 6;
         //this.offset = r.nextInt(d.intValue());
         offset = (int)UnityEngine.Random.Range(0f, d);
 
-        effects = new List<Effect>();
+        effectsDict = new Dictionary<int, Effect>();
+        effectsToRemoveBeforeNextRound = new List<int>();
     }
 
     public void setMood(int tick)
     {
-
         double temp = population / 10000 * 6;
         ownMood = 5 * Math.Sin((tick + offset) * (2 * Math.PI / temp));
         double sumOfInfluences = 0;
@@ -61,16 +62,51 @@ public class City : MonoBehaviour {
 
     internal void Tick()
     {
+        foreach (KeyValuePair<int, Effect> e in effectsDict)
+        {
+            e.Value.evaluate(this);
+        }
+
+        foreach(int i in effectsToRemoveBeforeNextRound)
+        {
+            effectsDict.Remove(i);
+        }
+        effectsToRemoveBeforeNextRound.Clear();
     }
 
     void OnMouseDown()
     {
-        infoPanel.SetText(gameObject.name + "\nPopulacja: " + population);
+        PopulateInfoPanel();
+    }
 
+    private void PopulateInfoPanel()
+    {
+        string message = gameObject.name + "\nPopulacja: " + population + "\n";
+        message += "Efekty:\n";
+        foreach (KeyValuePair<int, Effect> e in effectsDict)
+        {
+            message += e.Value.id + ". " + e.Value.counter + ", " + e.Value.lifeTime;
+        }
+
+        infoPanel.SetText(message);
     }
 
     internal object getName()
     {
         return gameObject.name;
+    }
+
+    internal void AddEffect(Effect effect)
+    {
+        if (effectsDict.ContainsKey(effect.id))
+        {
+            effectsDict[effect.id].counter = 0;
+        }
+        else
+        {
+            Effect newEffect = FindObjectOfType<EffectDatabase>().ProduceEffect(effect.id);
+            effectsDict.Add(effect.id, newEffect);
+        }
+
     }
 }

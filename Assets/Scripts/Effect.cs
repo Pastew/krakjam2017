@@ -5,10 +5,15 @@ using System.Text;
 
 public abstract class Effect
 {
-    protected int id;
-    protected int counter;
-    protected int lifeTime;
+    public int id;
+    public int counter;
+    public int lifeTime;
 
     public abstract bool evaluate(City city);
+
+    internal int GetID()
+    {
+        return id;
+    }
 
 }
