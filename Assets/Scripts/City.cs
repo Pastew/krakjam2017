@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class City : MonoBehaviour {
 
-    ScreenDebug screenDebug;
+    InfoPanel infoPanel;
 
     [SerializeField]
     private int population = 100;
@@ -14,7 +14,7 @@ public class City : MonoBehaviour {
     private int comunismLevel = 100;
 
     void Start () {
-        screenDebug = FindObjectOfType<ScreenDebug>();
+        infoPanel = FindObjectOfType<InfoPanel>();
         GetComponentInChildren<TextMesh>().text = gameObject.name;
 	}
 	
@@ -29,7 +29,7 @@ public class City : MonoBehaviour {
 
     void OnMouseDown()
     {
-        screenDebug.write("Wybrane miasto: " + gameObject.name + "\nPopulacja: " + population);
+        infoPanel.SetText("Wybrane miasto: " + gameObject.name + "\nPopulacja: " + population);
 
     }
 

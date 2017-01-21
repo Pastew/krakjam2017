@@ -16,10 +16,10 @@ public class Town {
     double ownMood;
     ArrayList<Influence> influences;
 
-    public void setMood(int krok){
+    public void setMood(int tick){
 
         double temp = this.population/10000*6;
-        this.ownMood = 5*Math.sin((krok + this.offset) * (2 * Math.PI / temp));
+        this.ownMood = 5*Math.sin((tick + this.offset) * (2 * Math.PI / temp));
         double sumOfInfluences = 0;
         for(int i = 0; i<influences.size(); i++){
             double tempInf = influences.get(i).getInfluence(this.mood);

@@ -5,19 +5,15 @@ using UnityEngine;
 
 public class Antenna : MonoBehaviour {
 
-    ScreenDebug screenDebug;
+    InfoPanel infoPanel;
 
     [SerializeField]
     private int power = 10;
 
 	void Start () {
-        screenDebug = FindObjectOfType<ScreenDebug>();		
+        infoPanel = FindObjectOfType<InfoPanel>();		
 	}
 	
-	void Update () {
-		
-	}
-
     void OnMouseDown()
     {
         string message = "Moc anteny: " + power + "\n";
@@ -30,9 +26,7 @@ public class Antenna : MonoBehaviour {
             message += c.getName() + ": " + distance + "\n";
         }
 
-
-        screenDebug.write(message);
-
+        infoPanel.SetText(message);
     }
 
     internal void Tick()
