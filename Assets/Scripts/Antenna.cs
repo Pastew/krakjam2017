@@ -9,16 +9,20 @@ public class Antenna : MonoBehaviour {
 
     static int id = 0;
     private string antennaName;
+    private bool turnedOn = false;
+    private GameObject wave;
 
     [SerializeField]
     private int power = 10;
 
-	void Start () {
+
+    void Start () {
         id++;
         antennaName = "#" + id.ToString();
 
-        infoPanel = FindObjectOfType<InfoPanel>();		
-	}
+        infoPanel = FindObjectOfType<InfoPanel>();
+        wave = transform.Find("Wave").gameObject;
+    }
 	
     void OnMouseDown()
     {
@@ -28,7 +32,9 @@ public class Antenna : MonoBehaviour {
 
     private void ShowAntennaControlPanel()
     {
-        FindObjectOfType<AntennaControlPanel>().SetSelectedAntenna(this);
+        AntennaControlPanel antennaCP = FindObjectOfType< AntennaControlPanel > ();
+        antennaCP.enabled = true;
+        antennaCP.SetSelectedAntenna(this);
     }
 
     private void PopulateInfoPanel()
@@ -36,28 +42,37 @@ public class Antenna : MonoBehaviour {
         string message = "Moc anteny: " + power + "\n";
         City[] cities = FindObjectOfType<Cities>().GetCites();
 
-        message += "---Odległość między miastami---\n";
+        print("---Odległość między miastami---");
         foreach (City c in cities)
         {
             float distance = Vector3.Distance(c.transform.position, transform.position);
 
-            message += c.getName() + ": " + distance + "\n";
+            print(c.getName() + ": " + distance + "\n");
         }
 
         infoPanel.SetText(message);
     }
 
-    internal void turnOff()
+    public bool isTurnedOn()
+    {
+        return turnedOn;
+    }
+
+    public void turnOff()
     {
         print("Antena "+ antennaName + " turned off");
+        turnedOn = false;
+        wave.SetActive(false);
     }
 
-    internal void turnOn()
+    public void turnOn()
     {
         print("Antena " + antennaName + " turned on");
+        turnedOn = true;
+        wave.SetActive(true);
     }
 
-    internal void Tick()
+    public void Tick()
     {
     }
 }

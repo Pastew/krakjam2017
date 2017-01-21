@@ -22,21 +22,31 @@ public class AntennaControlPanel : MonoBehaviour {
 
     internal void turnOnAntenna()
     {
-        on.SetActive(false);
-        off.SetActive(true);
+        print("turrrasrsa");
+        on.SetActive(true);
+        off.SetActive(false);
         selectedAntenna.turnOn();
     }
 
     internal void turnOffAntenna()
     {
-        on.SetActive(true);
-        off.SetActive(false);
+        print("offffffffff");
+
+        on.SetActive(false);
+        off.SetActive(true);
         selectedAntenna.turnOff();
     }
 
-    internal void SetSelectedAntenna(Antenna antenna)
+    public void SetSelectedAntenna(Antenna antenna)
     {
-        this.enabled = true;
         selectedAntenna = antenna;
+        if (antenna.isTurnedOn())
+        {
+            off.SetActive(true);
+        }
+        else
+        {
+            on.SetActive(true);
+        }
     }
 }
