@@ -38,7 +38,7 @@ public class Timer : MonoBehaviour {
 
     private void UpdateClock()
     {
-        dateValue = dateValue.AddHours(tickEverySeconds);
+        dateValue = dateValue.AddHours(hoursAddedEveryTick);
         textMesh.text = dateValue.ToString();
         ticks++;
         textMesh.text = dateValue.Hour + ":00\n" + dateValue.Year + "-" + dateValue.Month + "-" + dateValue.Day;
