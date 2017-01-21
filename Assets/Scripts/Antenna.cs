@@ -9,7 +9,7 @@ public class Antenna : MonoBehaviour {
 
     static int id = 0;
     private string antennaName;
-    private bool turnedOn = false;
+    private bool turnedOn = true;
     private GameObject wave;
 
     [SerializeField]
@@ -33,7 +33,6 @@ public class Antenna : MonoBehaviour {
     private void ShowAntennaControlPanel()
     {
         AntennaControlPanel antennaCP = FindObjectOfType< AntennaControlPanel > ();
-        antennaCP.enabled = true;
         antennaCP.SetSelectedAntenna(this);
     }
 
@@ -51,6 +50,11 @@ public class Antenna : MonoBehaviour {
         }
 
         infoPanel.SetText(message);
+    }
+
+    internal string getName()
+    {
+        return antennaName;
     }
 
     public bool isTurnedOn()

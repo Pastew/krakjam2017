@@ -7,10 +7,6 @@ public class AntennaControlPanelOnOff : MonoBehaviour {
     [SerializeField]
     private string action = "on";
 
-	void Start () {
-		
-	}
-
     void OnMouseDown() { 
         if(action == "on")
             GetComponentInParent<AntennaControlPanel>().turnOnAntenna();

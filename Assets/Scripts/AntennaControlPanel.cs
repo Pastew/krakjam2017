@@ -13,7 +13,6 @@ public class AntennaControlPanel : MonoBehaviour {
         off = gameObject.transform.Find("off").gameObject;
         on.SetActive(false);
         off.SetActive(false);
-        enabled = false;
     }
 
     void Update () {
@@ -22,7 +21,6 @@ public class AntennaControlPanel : MonoBehaviour {
 
     internal void turnOnAntenna()
     {
-        print("turrrasrsa");
         on.SetActive(true);
         off.SetActive(false);
         selectedAntenna.turnOn();
@@ -30,8 +28,6 @@ public class AntennaControlPanel : MonoBehaviour {
 
     internal void turnOffAntenna()
     {
-        print("offffffffff");
-
         on.SetActive(false);
         off.SetActive(true);
         selectedAntenna.turnOff();
@@ -39,14 +35,17 @@ public class AntennaControlPanel : MonoBehaviour {
 
     public void SetSelectedAntenna(Antenna antenna)
     {
+        transform.Find("name").GetComponent<TextMesh>().text = "Antena " + antenna.getName();
         selectedAntenna = antenna;
         if (antenna.isTurnedOn())
         {
-            off.SetActive(true);
+            on.SetActive(true);
+            off.SetActive(false);
         }
         else
         {
-            on.SetActive(true);
+            on.SetActive(false);
+            off.SetActive(true);
         }
     }
 }
