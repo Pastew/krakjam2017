@@ -14,8 +14,11 @@ public class Button : MonoBehaviour {
     SpriteRenderer sr;
 
     void Start () {
-        standard = GetComponent<SpriteRenderer>().sprite;
-        sr = GetComponent<SpriteRenderer>();
+        if (GetComponent<SpriteRenderer>())
+        {
+            standard = GetComponent<SpriteRenderer>().sprite;
+            sr = GetComponent<SpriteRenderer>();
+        }
     }
 	
 	void Update () {
@@ -30,7 +33,9 @@ public class Button : MonoBehaviour {
 
     void OnMouseUp()
     {
-        sr.sprite = standard;
+        if(sr)
+            sr.sprite = standard;
+
         if(panelToOpen == "left")
             FindObjectOfType<MoveCamera>().OpenLeftMenu();
         if (panelToOpen == "right")
@@ -41,5 +46,7 @@ public class Button : MonoBehaviour {
             FindObjectOfType<MoveCamera>().OpenBottomMenu();
         if (panelToOpen == "main")
             FindObjectOfType<MoveCamera>().OpenMain();
+        if (panelToOpen == "bottomleft")
+            FindObjectOfType<MoveCamera>().OpenBottomLeft();
     }
 }

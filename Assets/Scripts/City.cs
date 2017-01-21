@@ -17,6 +17,14 @@ public class City : MonoBehaviour {
     private int offset;
     private double ownMood;
 
+    private List<Effect> effects;
+
+
+    internal void removeEffect(Effect effectToRemove)
+    {
+        effects.Remove(effectToRemove);
+    }
+
     void Start () {
         infoPanel = FindObjectOfType<InfoPanel>();
         GetComponentInChildren<TextMesh>().text = gameObject.name;
@@ -25,6 +33,8 @@ public class City : MonoBehaviour {
         float d = population / 10000 * 6;
         //this.offset = r.nextInt(d.intValue());
         offset = (int)UnityEngine.Random.Range(0f, d);
+
+        effects = new List<Effect>();
     }
 
     public void setMood(int tick)

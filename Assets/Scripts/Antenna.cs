@@ -9,12 +9,16 @@ public class Antenna : MonoBehaviour {
 
     static int id = 0;
     private string antennaName;
-    private bool turnedOn = false;
     private GameObject wave;
 
     [SerializeField]
     private int power = 10;
 
+    [SerializeField]
+    private bool broadcasting = false;
+
+    private bool turnedOn = false;
+    
 
     void Start () {
         id++;
@@ -42,7 +46,6 @@ public class Antenna : MonoBehaviour {
 
             PopulateInfoPanel();
             ShowAntennaControlPanel();
-            FindObjectOfType<Diary>().WriteToDiary("Clicked antenna: " + antennaName);
         }
 
     }

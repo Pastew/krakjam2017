@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -33,10 +34,18 @@ public class MoveCamera : MonoBehaviour {
         MoveCameraToVec3(new Vector3(0, -5.5f, 0));
     }
 
+    public void OpenBottomLeft()
+    {
+        MoveCameraToVec3(new Vector3(-15f, -8f, 0));
+    }
+
     public void MoveCameraToVec3(Vector3 destinationPos)
     {
         StartCoroutine(MoveOverSeconds(gameObject, new Vector3(destinationPos.x, destinationPos.y, transform.position.z), 0.2f));
     }
+
+
+
 
     public IEnumerator MoveOverSpeed(GameObject objectToMove, Vector3 end, float speed)
     {
