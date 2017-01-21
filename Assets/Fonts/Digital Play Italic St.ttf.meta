@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 22e1cca4eb2f2fe4391541fbe76dda39
+timeCreated: 1485032844
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Digital Play Italic St
+  fontNames:
+  - Digital Play Italic St
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
