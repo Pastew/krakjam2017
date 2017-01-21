@@ -1804,7 +1804,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7.17999, y: 0.0000038146973}
+  m_AnchoredPosition: {x: -7.1800184, y: 0.0000038146973}
   m_SizeDelta: {x: -14.360001, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &626554079
@@ -4919,45 +4919,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 58728642475406696, guid: b8f0af924db33d7498fe63e7e5735f87,
-        type: 2}
-      propertyPath: m_Radius
-      value: 0.39
-      objectReference: {fileID: 0}
-    - target: {fileID: 212578802023829588, guid: b8f0af924db33d7498fe63e7e5735f87,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: e56f3df5f38bd47478e68303c744ce30,
-        type: 3}
-    - target: {fileID: 4661700846873916, guid: b8f0af924db33d7498fe63e7e5735f87, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4661700846873916, guid: b8f0af924db33d7498fe63e7e5735f87, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4661700846873916, guid: b8f0af924db33d7498fe63e7e5735f87, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4280191566978292, guid: b8f0af924db33d7498fe63e7e5735f87, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4280191566978292, guid: b8f0af924db33d7498fe63e7e5735f87, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4280191566978292, guid: b8f0af924db33d7498fe63e7e5735f87, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1349186691133812, guid: b8f0af924db33d7498fe63e7e5735f87, type: 2}
-      propertyPath: m_Name
-      value: Wave
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8f0af924db33d7498fe63e7e5735f87, type: 2}
   m_IsPrefabParent: 0
@@ -5650,7 +5611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af138eab4d4bcf4ebe72296751b4f5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  antenna: {fileID: 0}
+  antenna: {fileID: 1467192995756874, guid: b8f0af924db33d7498fe63e7e5735f87, type: 2}
 --- !u!212 &1987516671
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5694,7 +5655,7 @@ Transform:
   m_GameObject: {fileID: 1987516668}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.68, y: 0.61, z: 0}
-  m_LocalScale: {x: 0.20397846, y: 0.20397854, z: 0.20397854}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 286662750}
   m_RootOrder: 1

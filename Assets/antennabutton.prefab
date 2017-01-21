@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 114069074500020502}
   - component: {fileID: 58728642475406696}
   m_Layer: 0
-  m_Name: antenna
+  m_Name: antennabutton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
