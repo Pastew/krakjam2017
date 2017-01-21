@@ -2,10 +2,10 @@ Mono path[0] = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Managed'
 Mono path[1] = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Mono'
 Mono config path = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Mono/etc'
 PlayerConnection initialized from D:/dev/wprowadze do gier/RedWave/bin/game_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55386
-Multi-casting "[IP] 172.20.47.154 [Port] 55386 [Flags] 2 [Guid] 2960650659 [EditorId] 880373169 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-IK3801I) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55386]
-PlayerConnection already initialized - listening to [0.0.0.0:55386]
+PlayerConnection initialized network socket : 0.0.0.0 55305
+Multi-casting "[IP] 172.20.47.154 [Port] 55305 [Flags] 2 [Guid] 1316403609 [EditorId] 880373169 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-IK3801I) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55305]
+PlayerConnection already initialized - listening to [0.0.0.0:55305]
 Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -25,7 +25,7 @@ Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityE
 Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.178 seconds
+- Completed reload, in  0.080 seconds
 Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
@@ -36,11 +36,17 @@ The class named 'Effect1' is not derived from MonoBehaviour or ScriptableObject!
  
 (Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1526)
 
-The referenced script on this Behaviour (Game Object 'AuditionsDatabase') is missing!
+UnloadTime: 2.389188 ms
+CHU
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Auditions:Start() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Auditions.cs:20)
  
-(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1754)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Auditions.cs Line: 20)
 
-UnloadTime: 1.647244 ms
 5/3/1952 12:00:00 PM
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -52,63 +58,8 @@ Timer:Start() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:24)
 (Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Timer.cs Line: 24)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1c08 -> priority: 1 
-Mono path[0] = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Managed'
-Mono path[1] = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Mono'
-Mono config path = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Mono/etc'
-PlayerConnection initialized from D:/dev/wprowadze do gier/RedWave/bin/game_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55327
-Multi-casting "[IP] 172.20.47.154 [Port] 55327 [Flags] 2 [Guid] 930349747 [EditorId] 880373169 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-IK3801I) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55327]
-PlayerConnection already initialized - listening to [0.0.0.0:55327]
-Initialize engine version: 5.5.0f3 (38b4efef76f0)
-GfxDevice: creating device client; threaded=1
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: Intel(R) HD Graphics 3000 (ID=0x116)
-    Vendor:   Intel
-    VRAM:     848 MB
-    Driver:   21.21.13.6909
-Begin MonoManager ReloadAssembly
-Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.033 seconds
-Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\System.dll (this message is harmless)
-desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
-<RI> Initializing input.
-<RI> Input initialized.
-<RI> Initialized touch support.
-The class named 'Effect1' is not derived from MonoBehaviour or ScriptableObject!
- 
-(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1526)
-
-The referenced script on this Behaviour (Game Object 'AuditionsDatabase') is missing!
- 
-(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1754)
-
-UnloadTime: 1.450960 ms
-5/3/1952 12:00:00 PM
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Timer:Start() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:24)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Timer.cs Line: 24)
-
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2994 -> priority: 1 
-Got force: (22.7, 245.1)
+  Thread -> id: 1af0 -> priority: 1 
+Got force: (-137.6, -445.5)
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -122,7 +73,7 @@ UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\bui
  
 (Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/NormalLightBulb.cs Line: 20)
 
-Got force: (195.4, 37.9)
+Got force: (379.9, 63.7)
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -136,7 +87,63 @@ UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\bui
  
 (Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/NormalLightBulb.cs Line: 20)
 
-Got force: (94.6, -169.3)
+Got force: (-209.1, -71.9)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+NormalLightBulb:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\NormalLightBulb.cs:20)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
+UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
+UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+ 
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/NormalLightBulb.cs Line: 20)
+
+Got force: (224.6, 144.2)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+NormalLightBulb:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\NormalLightBulb.cs:20)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
+UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
+UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+ 
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/NormalLightBulb.cs Line: 20)
+
+Got force: (-270.6, -351.6)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+NormalLightBulb:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\NormalLightBulb.cs:20)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
+UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
+UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+ 
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/NormalLightBulb.cs Line: 20)
+
+Got force: (-424.2, -233.6)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+NormalLightBulb:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\NormalLightBulb.cs:20)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
+UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
+UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+ 
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/NormalLightBulb.cs Line: 20)
+
+Got force: (-84.5, 49.6)
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)

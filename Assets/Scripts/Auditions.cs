@@ -18,6 +18,7 @@ public class Auditions : MonoBehaviour {
         AddNewAuditionToPanel(0, "Głos wolności", effectDatabase.GetEffect(0), new int[] {1});
         AddNewAuditionToPanel(1, "Głos czynu", effectDatabase.GetEffect(1), new int[] { });
         AddNewAuditionToPanel(2, "Głos wytrwałości", effectDatabase.GetEffect(2),new int[] {0,1,2});
+        print("CHU");
 
     }
 

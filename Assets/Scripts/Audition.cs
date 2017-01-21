@@ -34,5 +34,6 @@ public class Audition : MonoBehaviour {
         print("I am audition with id " + GetID() + " and i was chosen! I want to remove these ids " );
         foreach (int i in idsToRemoveWhenChosen) { print(i); }
         auditions.RemoveAuditionFromPanel(idsToRemoveWhenChosen);
+        FindObjectOfType<CurrentAuditionHolder>().SetCurrentAudition(this);
     }
 }

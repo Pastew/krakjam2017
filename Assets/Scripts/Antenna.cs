@@ -154,14 +154,16 @@ public class Antenna : MonoBehaviour {
 
     private void affectCities()
     {
-        /*City[] cities = FindObjectOfType<Cities>().GetCites();
+        City[] cities = FindObjectOfType<Cities>().GetCites();
 
         foreach (City c in cities)
         {
-            float distance = Vector3.Distance(c.transform.position, transform.position);
+            float distancekm = Utils.Distance2DinKm(c.transform.position, transform.position);
+            if (distancekm <= radius)
+            {
 
-            print(c.getName() + ": " + distance + "\n");
-        }*/
+            }
+        }
     }
 
     private void searchForSpies()

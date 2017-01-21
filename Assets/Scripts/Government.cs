@@ -5,10 +5,12 @@ using UnityEngine;
 public class Government : MonoBehaviour {
 
     int attention;
+    int agents;
     List<Spy> spies;
 
     void Start () {
         attention = 0;
+        agents = 0;
         spies = new List<Spy>();
     }
 
@@ -38,28 +40,22 @@ public class Government : MonoBehaviour {
             else if (spies.Count == 5) { spies.RemoveAt(4); spies.RemoveAt(3); }
 
         }
-
-
     }
 
     public void changeGov(int delta)
     {
 
-        this.attention += delta;
-        this.checkSpies();
+        attention += delta;
+        checkSpies();
 
     }
 
     public void stepSpies()
     {
-
         for (int i = this.spies.Count - 1; i >= 0; i--)
         {
-
-            this.spies[i].stepSpy();
-
+            spies[i].stepSpy();
         }
-
     }
 
 }
