@@ -14,11 +14,9 @@ public class Auditions : MonoBehaviour {
 	void Start () {
         effectDatabase = FindObjectOfType<EffectDatabase>();
         auditionsDict = new Dictionary<int, Audition>();
-
-        AddNewAuditionToPanel(0, "Głos wolności", effectDatabase.ProduceEffect(0), new int[] {1});
-        AddNewAuditionToPanel(1, "Głos czynu", effectDatabase.ProduceEffect(1), new int[] { });
-        AddNewAuditionToPanel(2, "Głos wytrwałości", effectDatabase.ProduceEffect(2),new int[] {0,1,2});
-
+        AddNewAuditionToPanel(0);
+        AddNewAuditionToPanel(1);
+        AddNewAuditionToPanel(2);
     }
 
     public void RemoveAuditionFromPanel(int[] ids)
@@ -26,6 +24,22 @@ public class Auditions : MonoBehaviour {
         foreach(int i in ids)
         {
             RemoveAuditionFromPanel(i);
+        }
+    }
+
+    internal void AddNewAuditionToPanel(int i)
+    {
+        switch (i)
+        {
+            case 0:
+                AddNewAuditionToPanel(0, "Głos wolności", effectDatabase.ProduceEffect(0), new int[] { 1 });
+                break;
+            case 1:
+                AddNewAuditionToPanel(1, "Głos czynu", effectDatabase.ProduceEffect(1), new int[] { });
+                break;
+            case 2:
+                AddNewAuditionToPanel(2, "Głos wytrwałości", effectDatabase.ProduceEffect(2), new int[] { 0, 1, 2 });
+                break;
         }
     }
 
@@ -44,6 +58,9 @@ public class Auditions : MonoBehaviour {
 
     public void AddNewAuditionToPanel(int id, string desc, Effect effect, int[] idsToRemoveWhenChosen )
     {
+        if (auditionsDict.ContainsKey(id))
+            return;
+
         Transform parent = GetComponentInChildren<ContentSizeFitter>().gameObject.transform;
         Button newAudition = Instantiate(auditionButtonPrefab, parent, false);
         Audition audition = newAudition.gameObject.AddComponent<Audition>();
@@ -57,11 +74,6 @@ public class Auditions : MonoBehaviour {
         b.onClick.AddListener(() => { AuditionClicked(audition); });
 
     }
-    /* Potrzebne to? Czy wyzej dodaje juz?
-    internal void AddAudition(Audition audition)
-    {
-        auditions.Add(audition);
-    }*/
 
     public void AuditionClicked(Audition audition)
     {

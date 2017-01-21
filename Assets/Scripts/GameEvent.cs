@@ -25,6 +25,16 @@ public class GameEvent : MonoBehaviour {
     public void Execute()
     {
         diary.WriteToDiary("Wydarzenie: " + description);
+        if(auditions != null)
+        {
+            AddAuditions(auditions);
+        }
         Destroy(gameObject);
+    }
+
+    private void AddAuditions(List<int> auditions)
+    {
+        foreach (int i in auditions)
+            FindObjectOfType<Auditions>().AddNewAuditionToPanel(i);
     }
 }
