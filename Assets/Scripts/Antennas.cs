@@ -1,16 +1,26 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Antennas : MonoBehaviour {
 
-	// Use this for initialization
+    Antenna[] antennas;
+
 	void Start () {
-		
-	}
+        RefreshAntennaList();
+    }
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    internal void TickAntennas()
+    {
+        foreach (Antenna antenna in antennas)
+        {
+            antenna.Tick();
+        }
+    }
+    
+    public void RefreshAntennaList()
+    {
+        antennas = GetComponentsInChildren<Antenna>();
+    }
 }

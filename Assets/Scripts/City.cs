@@ -8,28 +8,33 @@ public class City : MonoBehaviour {
     ScreenDebug screenDebug;
 
     [SerializeField]
-    private string name = "Unnamed";
+    private int population = 100;
 
     [SerializeField]
-    private int population = 100;
+    private int comunismLevel = 100;
 
     void Start () {
         screenDebug = FindObjectOfType<ScreenDebug>();
-        GetComponentInChildren<TextMesh>().text = name;
+        GetComponentInChildren<TextMesh>().text = gameObject.name;
 	}
 	
 	void Update () {
 		
 	}
 
+    internal void Tick()
+    {
+        print("City tick: " + gameObject.name);
+    }
+
     void OnMouseDown()
     {
-        screenDebug.write("Wybrane miasto: " + name + "\nPopulacja: " + population);
+        screenDebug.write("Wybrane miasto: " + gameObject.name + "\nPopulacja: " + population);
 
     }
 
     internal object getName()
     {
-        return name;
+        return gameObject.name;
     }
 }

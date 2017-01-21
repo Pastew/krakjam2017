@@ -14,6 +14,8 @@ public class Timer : MonoBehaviour {
 
     private DateTime dateValue;
     private float ticks = 0;
+    Cities cities;
+    Antennas antennas;
 
     private TextMesh textMesh;
 
@@ -23,16 +25,22 @@ public class Timer : MonoBehaviour {
         InvokeRepeating("Tick", 0, tickEverySeconds);
 
         textMesh = GetComponent<TextMesh>();
+        cities = FindObjectOfType<Cities>();
+        antennas = FindObjectOfType<Antennas>();
     }
 	
     void Tick()
     {
+        UpdateClock();
+        cities.TickCities();
+        antennas.TickAntennas();
+    }
+
+    private void UpdateClock()
+    {
         dateValue = dateValue.AddHours(tickEverySeconds);
         textMesh.text = dateValue.ToString();
         ticks++;
-        textMesh.text = dateValue.Hour + ":00\n" + dateValue.Year + "-" + dateValue.Month + "-" + dateValue.Day ;
-
-
+        textMesh.text = dateValue.Hour + ":00\n" + dateValue.Year + "-" + dateValue.Month + "-" + dateValue.Day;
     }
-
 }

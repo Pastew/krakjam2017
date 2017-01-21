@@ -35,6 +35,7 @@ public class Hand : MonoBehaviour {
             print("Placing antenna");
             antennaInHand.transform.SetParent(antennas.transform);
             antennaInHand.GetComponent<Collider2D>().enabled = true;
+            antennas.RefreshAntennaList();
             antennaInHand = null;
         }
     }
