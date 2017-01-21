@@ -6,48 +6,52 @@ using UnityEngine.UI;
 
 public class Auditions : MonoBehaviour {
 
-    List<Audition> auditions;
+    Dictionary<int, Audition> auditionsDict;
     public Button auditionButtonPrefab;
 
     EffectDatabase effectDatabase;
 
 	void Start () {
         effectDatabase = FindObjectOfType<EffectDatabase>();
-        auditions = new List<Audition>();
+        auditionsDict = new Dictionary<int, Audition>();
 
-        AddNewAuditionToPanel(0, "Głos wolności", effectDatabase.GetEffect(0));
-        AddNewAuditionToPanel(1, "Głos czynu", effectDatabase.GetEffect(1));
-        AddNewAuditionToPanel(2, "Głos wytrwałości", effectDatabase.GetEffect(2));
+        AddNewAuditionToPanel(0, "Głos wolności", effectDatabase.GetEffect(0), new int[] {1});
+        AddNewAuditionToPanel(1, "Głos czynu", effectDatabase.GetEffect(1), new int[] { });
+        AddNewAuditionToPanel(2, "Głos wytrwałości", effectDatabase.GetEffect(2),new int[] {0,1,2});
 
-        RemoveAuditionFromPanel(1);
+    }
+
+    public void RemoveAuditionFromPanel(int[] ids)
+    {
+        foreach(int i in ids)
+        {
+            RemoveAuditionFromPanel(i);
+        }
     }
 
     public void RemoveAuditionFromPanel(int id)
     {
-        foreach(Audition a in auditions)
+        foreach (KeyValuePair<int, Audition> a in auditionsDict)
         {
-            if(a.id == id)
+            if(a.Key == id)
             {
-                a.gameObject.SetActive(false);
-                auditions.Remove(a);
+                a.Value.gameObject.SetActive(false);
+                auditionsDict.Remove(a.Key);
                 return;
             }
         }
     }
 
-    void Update () {
-		
-	}
-
-    public void AddNewAuditionToPanel(int id, string desc, Effect effect)
+    public void AddNewAuditionToPanel(int id, string desc, Effect effect, int[] idsToRemoveWhenChosen )
     {
         Transform parent = GetComponentInChildren<ContentSizeFitter>().gameObject.transform;
         Button newAudition = Instantiate(auditionButtonPrefab, parent, false);
         Audition audition = newAudition.gameObject.AddComponent<Audition>();
-        auditions.Add(audition);
+        auditionsDict.Add(id, audition);
         audition.id = id;
         audition.description = desc;
         audition.effect = effect;
+        audition.idsToRemoveWhenChosen = idsToRemoveWhenChosen;
         newAudition.GetComponentInChildren<Text>().text = audition.GetDescription();
         Button b = newAudition.GetComponent<Button>();
         b.onClick.AddListener(() => { AuditionClicked(audition); });
