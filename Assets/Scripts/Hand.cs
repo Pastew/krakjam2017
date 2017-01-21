@@ -16,7 +16,7 @@ public class Hand : MonoBehaviour {
         if (antennaInHand != null)
         {
             Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            pos.z = 0;
+            pos.z = transform.position.z;
             antennaInHand.transform.position = pos;
 
         }
@@ -25,6 +25,9 @@ public class Hand : MonoBehaviour {
     public void selectAntenna(GameObject antenna)
     {
         antennaInHand = antenna;
+        antennaInHand.GetComponent<Antenna>().turnOff();
+        FindObjectOfType<AntennaControlPanel>().SetSelectedAntenna(antennaInHand.GetComponent<Antenna>());
+        antennaInHand.GetComponent<Collider2D>().enabled = false;
         antennaInHand.transform.SetParent(transform);
     }
 
@@ -36,6 +39,7 @@ public class Hand : MonoBehaviour {
             antennaInHand.transform.SetParent(antennas.transform);
             antennaInHand.GetComponent<Collider2D>().enabled = true;
             antennas.RefreshAntennaList();
+            antennaInHand.GetComponent<Collider2D>().enabled = true;
             antennaInHand = null;
         }
     }

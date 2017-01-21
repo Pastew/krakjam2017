@@ -23,11 +23,26 @@ public class Antenna : MonoBehaviour {
         infoPanel = FindObjectOfType<InfoPanel>();
         wave = transform.Find("Wave").gameObject;
     }
-	
+
+    void OnMouseOver()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            print("RIGHT CLICK");
+            FindObjectOfType<Hand>().selectAntenna(gameObject);
+        }
+
+    }
     void OnMouseDown()
     {
-        PopulateInfoPanel();
-        ShowAntennaControlPanel();
+        if (Input.GetMouseButtonDown(0))
+        {
+            print("LEFT CLICK");
+
+            PopulateInfoPanel();
+            ShowAntennaControlPanel();
+        }
+
     }
 
     private void ShowAntennaControlPanel()
