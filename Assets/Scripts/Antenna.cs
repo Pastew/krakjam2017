@@ -42,6 +42,7 @@ public class Antenna : MonoBehaviour {
 
             PopulateInfoPanel();
             ShowAntennaControlPanel();
+            FindObjectOfType<Diary>().WriteToDiary("Clicked antenna: " + antennaName);
         }
 
     }

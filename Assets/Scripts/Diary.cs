@@ -4,13 +4,22 @@ using UnityEngine;
 
 public class Diary : MonoBehaviour {
 
-	// Use this for initialization
+    TextMesh textMesh;
+    Timer timer;
+
 	void Start () {
-		
+        textMesh = GetComponentInChildren<TextMesh>();
+        timer = FindObjectOfType<Timer>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+    public void WriteToDiary(string message, bool noDate = false)
+    {
+        string messageToWrite = "";
+        if (!noDate)
+            messageToWrite += timer.getDate();
+
+            messageToWrite += message + "\n";
+
+        textMesh.text = messageToWrite + "\n" + textMesh.text;
+    }
 }

@@ -2,10 +2,10 @@ Mono path[0] = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Managed'
 Mono path[1] = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Mono'
 Mono config path = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Mono/etc'
 PlayerConnection initialized from D:/dev/wprowadze do gier/RedWave/bin/game_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55207
-Multi-casting "[IP] 172.20.47.154 [Port] 55207 [Flags] 2 [Guid] 373766215 [EditorId] 636587799 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-IK3801I) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55207]
-PlayerConnection already initialized - listening to [0.0.0.0:55207]
+PlayerConnection initialized network socket : 0.0.0.0 55439
+Multi-casting "[IP] 172.20.47.154 [Port] 55439 [Flags] 2 [Guid] 3864851701 [EditorId] 2214838092 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-IK3801I) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55439]
+PlayerConnection already initialized - listening to [0.0.0.0:55439]
 Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -25,14 +25,25 @@ Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityE
 Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.062 seconds
+- Completed reload, in  0.220 seconds
 Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.911094 ms
+UnloadTime: 1.540763 ms
+Antena #1 turned off
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Antenna:turnOff() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:83)
+Antenna:Start() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:25)
+ 
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 83)
+
 5/3/1952 12:00:00 PM
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -44,4 +55,4 @@ Timer:Start() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:24)
 (Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Timer.cs Line: 24)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2df0 -> priority: 1 
+  Thread -> id: 1fc0 -> priority: 1 

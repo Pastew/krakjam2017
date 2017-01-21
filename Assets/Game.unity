@@ -2913,13 +2913,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1632147053}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.041156434, w: 0.9991527}
   m_LocalPosition: {x: -0.78, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1392839760}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 4.7180004}
 --- !u!102 &1632147055
 TextMesh:
   serializedVersion: 3
@@ -2927,14 +2927,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1632147053}
-  m_Text: "Lorem Ipsum is simply dummy\n text of the printing and typesetting industry\n.
-    Lorem Ipsum has been the industry's \nstandard dummy text ever since the 1500s,\n
-    when an unknown printer took a galley \nof type and scrambled it to make a type\n
-    specimen book. It has survived not only \nfive centuries, but also the leap into
-    electronic \ntypesetting, remaining essentially unchanged. \nIt was popularised
-    in the 1960s with the\n release of Letraset sheets containing \nLorem Ipsum passages,
-    and more\n recently with desktop publishing\n software like Aldus PageMaker including
-    versions of Lorem Ipsum.\n"
+  m_Text: "Lorem Ipsum is simply dummy\n "
   m_OffsetZ: 0
   m_CharacterSize: 0.34
   m_LineSpacing: 1

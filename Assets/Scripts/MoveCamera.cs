@@ -30,7 +30,7 @@ public class MoveCamera : MonoBehaviour {
 
     public void OpenBottomMenu()
     {
-        MoveCameraToVec3(new Vector3(0, -6.5f, 0));
+        MoveCameraToVec3(new Vector3(0, -5.5f, 0));
     }
 
     public void MoveCameraToVec3(Vector3 destinationPos)

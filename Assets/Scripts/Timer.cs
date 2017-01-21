@@ -28,7 +28,12 @@ public class Timer : MonoBehaviour {
         cities = FindObjectOfType<Cities>();
         antennas = FindObjectOfType<Antennas>();
     }
-	
+
+    internal DateTime getDate()
+    {
+        return dateValue;
+    }
+
     void Tick()
     {
         UpdateClock();
