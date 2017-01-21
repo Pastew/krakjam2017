@@ -9,7 +9,7 @@ public class Antenna : MonoBehaviour {
 
     static int id = 0;
     private string antennaName;
-    private bool turnedOn = true;
+    private bool turnedOn = false;
     private GameObject wave;
 
     [SerializeField]
@@ -22,6 +22,7 @@ public class Antenna : MonoBehaviour {
 
         infoPanel = FindObjectOfType<InfoPanel>();
         wave = transform.Find("Wave").gameObject;
+        turnOff();
     }
 
     void OnMouseOver()
@@ -81,7 +82,8 @@ public class Antenna : MonoBehaviour {
     {
         print("Antena "+ antennaName + " turned off");
         turnedOn = false;
-        wave.SetActive(false);
+        if(wave)
+            wave.SetActive(false);
     }
 
     public void turnOn()
