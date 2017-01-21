@@ -24,7 +24,6 @@ public class City : MonoBehaviour {
 
     internal void Tick()
     {
-        print("City tick: " + gameObject.name);
     }
 
     void OnMouseDown()

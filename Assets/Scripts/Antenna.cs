@@ -31,6 +31,5 @@ public class Antenna : MonoBehaviour {
 
     internal void Tick()
     {
-        print("Antenna tick" + name);
     }
 }
