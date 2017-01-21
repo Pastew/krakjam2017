@@ -174,6 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelToOpen: main
+  hover: {fileID: 0}
 --- !u!61 &33163475
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -766,7 +767,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 486708102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1028,11 +1029,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 619070133}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.1, y: 1.95, z: 0}
-  m_LocalScale: {x: 0.3936, y: 0.3936, z: 0.3936}
+  m_LocalPosition: {x: -8.1, y: 3.62, z: 0}
+  m_LocalScale: {x: 0.6099486, y: 0.6099486, z: 0.6099486}
   m_Children: []
   m_Father: {fileID: 1319616419}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &619070135
 MonoBehaviour:
@@ -1045,7 +1046,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62dc0cd1af8a56a41b6bf31cc5e4ea37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelToOpen: right
+  panelToOpen: left
+  hover: {fileID: 21300000, guid: d0b3cffdbc7def547b45c56679d708c0, type: 3}
 --- !u!61 &619070136
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1091,7 +1093,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e1ab40578ba41864d893e58c8eb3a8d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b3c2252dd6a24af4ebdad32085b4bf3e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1507,6 +1509,7 @@ Transform:
   - {fileID: 25274237}
   - {fileID: 286662750}
   - {fileID: 2146343870}
+  - {fileID: 1392839760}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1871,11 +1874,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1020366702}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.1, y: -0.07, z: 0}
-  m_LocalScale: {x: 0.3936, y: 0.3936, z: 0.3936}
+  m_LocalPosition: {x: -8.1, y: 1.6, z: 0}
+  m_LocalScale: {x: 0.6099486, y: 0.6099486, z: 0.6099486}
   m_Children: []
   m_Father: {fileID: 1319616419}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1020366704
 MonoBehaviour:
@@ -1888,7 +1891,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62dc0cd1af8a56a41b6bf31cc5e4ea37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelToOpen: bottom
+  panelToOpen: right
+  hover: {fileID: 21300000, guid: 8be6059bbcaca204b8f50a2e5c397748, type: 3}
 --- !u!61 &1020366705
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1934,7 +1938,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8be6059bbcaca204b8f50a2e5c397748, type: 3}
+  m_Sprite: {fileID: 21300000, guid: de4448ff8df05ff418d8ed72fb6eee26, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2390,16 +2394,57 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1594643799}
-  - {fileID: 1702763708}
   - {fileID: 619070134}
   - {fileID: 1707664907}
   - {fileID: 1020366703}
+  - {fileID: 1702763708}
   - {fileID: 1973507035}
   - {fileID: 33163473}
   - {fileID: 1470351713}
   m_Father: {fileID: 743632586}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1392839759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1392839760}
+  - component: {fileID: 1392839761}
+  m_Layer: 0
+  m_Name: Diary
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1392839760
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1392839759}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.11, y: -5.98, z: -3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1632147054}
+  m_Father: {fileID: 743632586}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1392839761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1392839759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c75ee112454fe6f48887ba5d26362fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1395764978
 GameObject:
   m_ObjectHideFlags: 0
@@ -2535,6 +2580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelToOpen: main
+  hover: {fileID: 0}
 --- !u!61 &1470351715
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2780,7 +2826,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62dc0cd1af8a56a41b6bf31cc5e4ea37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelToOpen: left
+  panelToOpen: bottom
+  hover: {fileID: 21300000, guid: 0a7d3794f2d9ecc4ab746458278dbf04, type: 3}
 --- !u!61 &1594643797
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2837,12 +2884,101 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1594643795}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.1, y: 2.86, z: 0}
-  m_LocalScale: {x: 0.39360103, y: 0.39360103, z: 0.39360103}
+  m_LocalPosition: {x: -8.12, y: 0.71, z: 0}
+  m_LocalScale: {x: 0.6099501, y: 0.6099501, z: 0.6099501}
   m_Children: []
   m_Father: {fileID: 1319616419}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1632147053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1632147054}
+  - component: {fileID: 1632147056}
+  - component: {fileID: 1632147055}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1632147054
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1632147053}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.78, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1392839760}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &1632147055
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1632147053}
+  m_Text: "Lorem Ipsum is simply dummy\n text of the printing and typesetting industry\n.
+    Lorem Ipsum has been the industry's \nstandard dummy text ever since the 1500s,\n
+    when an unknown printer took a galley \nof type and scrambled it to make a type\n
+    specimen book. It has survived not only \nfive centuries, but also the leap into
+    electronic \ntypesetting, remaining essentially unchanged. \nIt was popularised
+    in the 1960s with the\n release of Letraset sheets containing \nLorem Ipsum passages,
+    and more\n recently with desktop publishing\n software like Aldus PageMaker including
+    versions of Lorem Ipsum.\n"
+  m_OffsetZ: 0
+  m_CharacterSize: 0.34
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &1632147056
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1632147053}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1657474927
 GameObject:
   m_ObjectHideFlags: 0
@@ -3048,7 +3184,7 @@ Transform:
   m_LocalScale: {x: 0.3936, y: 0.3936, z: 0.3936}
   m_Children: []
   m_Father: {fileID: 1319616419}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1702763709
 MonoBehaviour:
@@ -3062,6 +3198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelToOpen: main
+  hover: {fileID: 0}
 --- !u!61 &1702763710
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3209,11 +3346,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1707664906}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.1, y: 0.99, z: 0}
-  m_LocalScale: {x: 0.3936, y: 0.3936, z: 0.3936}
+  m_LocalPosition: {x: -8.1, y: 2.66, z: 0}
+  m_LocalScale: {x: 0.6099486, y: 0.6099486, z: 0.6099486}
   m_Children: []
   m_Father: {fileID: 1319616419}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1707664908
 MonoBehaviour:
@@ -3227,6 +3364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelToOpen: top
+  hover: {fileID: 21300000, guid: d8ca82cb770790c47a2a844f19fa6e90, type: 3}
 --- !u!61 &1707664909
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4182,6 +4320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelToOpen: main
+  hover: {fileID: 0}
 --- !u!61 &1973507037
 BoxCollider2D:
   m_ObjectHideFlags: 0
