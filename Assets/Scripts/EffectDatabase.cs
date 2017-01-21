@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,4 +18,9 @@ public class EffectDatabase : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    internal Effect GetEffect(int v)
+    {
+        return new Effect1();
+    }
 }

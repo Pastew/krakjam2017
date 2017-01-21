@@ -39,29 +39,6 @@ public class Antenna : MonoBehaviour {
 
     }
 
-    internal void SwitchToBroadcast()
-    {
-        broadcasting = true;
-        print("Antena " + antennaName + " switched to broadcast mode");
-    }
-
-    internal void SwitchToReiceve()
-    {
-        broadcasting = false;
-        print("Antena " + antennaName + " switched to receive mode");
-
-    }
-
-    public bool isBroadcasting()
-    {
-        return broadcasting;
-    }
-
-    public bool isReiceving()
-    {
-        return !broadcasting;
-    }
-
     void OnMouseDown()
     {
         if (Input.GetMouseButtonDown(0))
@@ -110,15 +87,45 @@ public class Antenna : MonoBehaviour {
     {
         print("Antena "+ antennaName + " turned off");
         turnedOn = false;
-        if(wave)
+        if (wave)
+        {
             wave.SetActive(false);
+        }
     }
 
     public void turnOn()
     {
         print("Antena " + antennaName + " turned on");
         turnedOn = true;
-        wave.SetActive(true);
+        if (wave)
+        {
+            wave.SetActive(true);
+        }
+    }
+
+    internal void SwitchToBroadcast()
+    {
+        broadcasting = true;
+        wave.GetComponent<Animator>().SetTrigger("broadcast");
+        print("Antena " + antennaName + " switched to broadcast mode");
+    }
+
+    internal void SwitchToReiceve()
+    {
+        broadcasting = false;
+        wave.GetComponent<Animator>().SetTrigger("receive");
+        print("Antena " + antennaName + " switched to receive mode");
+
+    }
+
+    public bool isBroadcasting()
+    {
+        return broadcasting;
+    }
+
+    public bool isReiceving()
+    {
+        return !broadcasting;
     }
 
     public void Tick()
