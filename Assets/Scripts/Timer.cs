@@ -46,6 +46,6 @@ public class Timer : MonoBehaviour {
         dateValue = dateValue.AddHours(hoursAddedEveryTick);
         textMesh.text = dateValue.ToString();
         ticks++;
-        textMesh.text = dateValue.Hour + ":00\n" + dateValue.Year + "-" + dateValue.Month + "-" + dateValue.Day;
+        textMesh.text = dateValue.Year + "-" + dateValue.Month + "-" + dateValue.Day + "  " + dateValue.Hour + ":00  ";
     }
 }
