@@ -31,7 +31,7 @@ public class Timer : MonoBehaviour {
         gameEventManager = FindObjectOfType<GameEventManager>();
     }
 
-    internal DateTime getDate()
+    internal DateTime GetDate()
     {
         return dateValue;
     }

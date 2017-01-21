@@ -16,7 +16,7 @@ public class Diary : MonoBehaviour {
     {
         string messageToWrite = "";
         if (!noDate)
-            messageToWrite += timer.getDate();
+            messageToWrite += timer.GetDate();
 
             messageToWrite += message + "\n";
 
