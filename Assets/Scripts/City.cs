@@ -55,7 +55,7 @@ public class City : MonoBehaviour {
 
     void OnMouseDown()
     {
-        infoPanel.SetText("Wybrane miasto: " + gameObject.name + "\nPopulacja: " + population);
+        infoPanel.SetText(gameObject.name + "\nPopulacja: " + population);
 
     }
 
