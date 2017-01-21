@@ -8,21 +8,23 @@ public class GameEvent : MonoBehaviour {
     public string description;
     public List<string> affectedCities;
     public int effect;
-    public List<int> auditions;
+    public List<int> auditions = null;
+    [Tooltip("Format: yyyy-mm-dd")]
+    public string date = null;
     public DateTime dateTime;
 
     Diary diary;
 
-    public GameEvent(string v1, List<string> list1, int v2, List<int> list2)
+    void Start()
     {
-        description = v1;
-        affectedCities = list1;
-        effect = v2;
-        auditions = list2;
+        diary = FindObjectOfType<Diary>();
+        if (date != null)
+            dateTime = DateTime.Parse(date);
     }
 
     public void Execute()
     {
-        
+        diary.WriteToDiary("Wydarzenie: " + description);
+        Destroy(gameObject);
     }
 }
