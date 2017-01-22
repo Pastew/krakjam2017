@@ -97,7 +97,7 @@ public class Government : MonoBehaviour {
     {
         foreach (GameObject s in spies)
         {
-            s.GetComponent<Spy>().visible = true;
+            s.GetComponent<Spy>().Show();
         }
     }
 }
