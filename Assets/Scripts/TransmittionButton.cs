@@ -9,7 +9,7 @@ public class TransmittionButton : MonoBehaviour {
     [SerializeField]
     Sprite offSprite;
 
-    bool transmitting;
+    public bool transmitting;
 
     void Start()
     {
@@ -23,7 +23,7 @@ public class TransmittionButton : MonoBehaviour {
         if (currentSprite.Equals(onSprite))
         {
             GetComponent<SpriteRenderer>().sprite = offSprite;
-            ChangeToON();
+            ChangeToOFF();
         }
         else
         {
