@@ -9,6 +9,7 @@ public class ScoreManager : MonoBehaviour {
     City[] cities;
     public float previousMonthScore = 0;
     public float todayScore = 0;
+    public GameObject winScreen, loseScreen;
 
     void Start () {
         cities = FindObjectsOfType<City>();
@@ -22,6 +23,33 @@ public class ScoreManager : MonoBehaviour {
     {
         todayScore = GetTotalScore();
         GetComponentInChildren<TextMesh>().text = todayScore.ToString();
+
+        CheckScoreForWin();
+        CheckAttentionForWin();
+    }
+
+    private void CheckScoreForWin()
+    {
+        if (todayScore >= 4200000)
+            Win();
+        if (todayScore <= -4200000)
+            Lose();
+    }
+
+    private void CheckAttentionForWin()
+    {
+        if (FindObjectOfType<Government>().attention >= 100)
+            Lose();
+    }
+
+    private void Win()
+    {
+        Instantiate(winScreen);
+    }
+
+    private void Lose()
+    {
+        Instantiate(loseScreen);
     }
 
     public int GetTotalScore()
