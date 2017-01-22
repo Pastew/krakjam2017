@@ -55,7 +55,8 @@ public class Upgrade : MonoBehaviour {
 
     private void HireAgent()
     {
-        
+        int newAgentsNumber = FindObjectOfType<Government>().HireAgent();
+        GameObject.Find("AgentsNumber").GetComponent<TextMesh>().text = "Najętych agentów: " + newAgentsNumber;
     }
 
     private void UpgradePower()

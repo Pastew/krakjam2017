@@ -46,6 +46,12 @@ public class Government : MonoBehaviour {
         }
     }
 
+    internal int HireAgent()
+    {
+        agents++;
+        return agents;
+    }
+
     private GameObject GenerateSpy()
     {
         GameObject spy = new GameObject();
