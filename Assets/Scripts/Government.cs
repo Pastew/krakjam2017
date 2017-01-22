@@ -6,8 +6,8 @@ public class Government : MonoBehaviour {
 
     int MAX_ATTENTION = 100;
     int MIN_ATTENTION = 0;
-    int attention;
-    int agents, agentTimer;
+    public int attention;
+    public int agents, agentTimer;
     List<GameObject> spies;
 
     int agentsRemovalCounter;
@@ -56,7 +56,6 @@ public class Government : MonoBehaviour {
     internal void IncreaseAttention()
     {
         attention += 1;
-        FindObjectOfType<Termometer>().SetLevel(attention / 100f);
     }
 
     public void changeGov(int delta)
@@ -68,7 +67,8 @@ public class Government : MonoBehaviour {
     public void Tick()
     {
         checkSpies();
-        agentsAction();        
+        agentsAction();
+        FindObjectOfType<Termometer>().SetLevel(attention / 100f);
     }
 
     private void agentsAction()

@@ -19,7 +19,7 @@ public class Antenna : MonoBehaviour {
         id++;
         antennaName = "#" + id.ToString();
         broadcasting = true;
-        turnedOn = false;
+        turnedOn = true;
         infoPanel = FindObjectOfType<InfoPanel>();
         wave = transform.Find("Wave").gameObject;
         turnOff();
@@ -39,8 +39,14 @@ public class Antenna : MonoBehaviour {
         {
             PopulateInfoPanel();
             ShowAntennaControlPanel();
+            ShowRangeCircle();
         }
 
+    }
+
+    private void ShowRangeCircle()
+    {
+        //rangeCircle.setActive(true);
     }
 
     private void ShowAntennaControlPanel()

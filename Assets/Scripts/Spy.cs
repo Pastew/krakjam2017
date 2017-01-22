@@ -33,6 +33,7 @@ public class Spy : MonoBehaviour {
 
     public void Tick()
     {
+        Receive();
         counter++;
         if(counter >= threshold)
         {
@@ -51,7 +52,7 @@ public class Spy : MonoBehaviour {
 
         foreach (Antenna a in FindObjectsOfType<Antenna>())
         {
-            if (a.isTurnedOn())
+            if (a.isTurnedOn() && a.isBroadcasting())
             {
                 if(Utils.Distance2DinKm(transform.position, a.transform.position) <= a.radius)
                 {

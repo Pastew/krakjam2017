@@ -14,6 +14,6 @@ public class Termometer : MonoBehaviour {
 
     public void SetLevel(float level)
     {
-        transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y, level);
+        transform.localScale = new Vector3(transform.localScale.x, level, transform.localScale.z);
     }
 }
