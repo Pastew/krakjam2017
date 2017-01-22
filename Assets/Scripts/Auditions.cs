@@ -32,13 +32,13 @@ public class Auditions : MonoBehaviour {
         switch (i)
         {
             case 0:
-                AddNewAuditionToPanel(0, "Głos wolności", effectDatabase.ProduceEffect(0), new int[] { 1 });
+                AddNewAuditionToPanel(0, "Głos wolności", effectDatabase.ProduceEffect(0), new int[] { });
                 break;
             case 1:
                 AddNewAuditionToPanel(1, "Głos czynu", effectDatabase.ProduceEffect(1), new int[] { });
                 break;
             case 2:
-                AddNewAuditionToPanel(2, "Głos wytrwałości", effectDatabase.ProduceEffect(2), new int[] { 0, 1, 2 });
+                AddNewAuditionToPanel(2, "Głos wytrwałości", effectDatabase.ProduceEffect(2), new int[] { });
                 break;
         }
     }

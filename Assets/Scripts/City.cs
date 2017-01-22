@@ -105,12 +105,10 @@ public class City : MonoBehaviour {
         if (mood < 0)
         {
             r = -mood / 1000.0f*2;
-            print("mood " + mood + ", R: " + r);
         }
         else
         {
             g = mood / 1000.0f*2;
-            print("mood " + mood + ", g: " + g);
 
         }
 
@@ -132,7 +130,7 @@ public class City : MonoBehaviour {
     {
         string message = gameObject.name + "\nPopulacja: " + population + "\n";
         message += "Mood: " + mood + "\n";
-        message += "OwnMood: " + ownMood;
+        message += "OwnMood: " + ownMood + "\n";
 
         message += "Efekty:\n";
         foreach (KeyValuePair<int, Effect> e in effectsDict)
@@ -158,6 +156,7 @@ public class City : MonoBehaviour {
         else
         {
             Effect newEffect = FindObjectOfType<EffectDatabase>().ProduceEffect(effect.id);
+            newEffect.recalculateData(this);
             effectsDict.Add(effect.id, newEffect);
         }
 

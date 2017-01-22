@@ -98,20 +98,12 @@ public class Antenna : MonoBehaviour {
     {
         print("Antena "+ antennaName + " turned off");
         turnedOn = false;
-        if (wave)
-        {
-            wave.SetActive(false);
-        }
     }
 
     public void turnOn()
     {
         print("Antena " + antennaName + " turned on");
         turnedOn = true;
-        if (wave)
-        {
-            wave.SetActive(true);
-        }
     }
 
     internal void SwitchToBroadcast()
@@ -141,12 +133,42 @@ public class Antenna : MonoBehaviour {
 
     public void Tick()
     {
+        SetWave();
+
+        if (!isTurnedOn())
+            return;
+
+
+        if (!(FindObjectOfType<TransmittionButton>().isTransmitting()))
+            return;
+
         print("Antenna tick");
         if (isBroadcasting())
             affectCities();
 
         if (isReiceving())
             searchForSpies();
+    }
+
+    private void SetWave()
+    {
+        if (wave == null)
+            return;
+        
+        if(!(FindObjectOfType<TransmittionButton>().isTransmitting()))
+        {
+            wave.SetActive(false);
+            return;
+        }
+
+        if (!isTurnedOn())
+        {
+            wave.SetActive(false);
+        }
+        else
+        {
+            wave.SetActive(true);
+        }
     }
 
     private void affectCities()

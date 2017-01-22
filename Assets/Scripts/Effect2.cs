@@ -17,8 +17,6 @@ public class Effect2 : Effect {
 
     public override void evaluate(City city)
     {
-        recalculateData(city);
-        
         if (counter >= lifeTime)
         {
             city.RemoveEffect(id);
