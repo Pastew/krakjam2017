@@ -32,6 +32,36 @@ public class City : MonoBehaviour {
         sm.ResetPreviousScore();
     }
 
+    internal void AddGovAttention(int v)
+    {
+        FindObjectOfType<Government>().attention += v;
+    }
+
+    internal void WriteToDiary(string v)
+    {
+        FindObjectOfType<Diary>().WriteToDiary(v);
+    }
+
+    internal bool isInAnyAntennaRange()
+    {
+        foreach (Antenna a in FindObjectsOfType<Antenna>())
+        {
+            if (Utils.Distance2DinKm(transform.position, a.transform.position) < a.radius)
+                return true;
+        }
+        return false;
+    }
+
+    internal void PlaceSpyHere()
+    {
+        FindObjectOfType<Government>().ChangeSpyPosition(transform.position);
+    }
+
+    internal void InvokeGameEvent(string desc, int effect, string city, List<int> uditionTOAdd)
+    {
+        FindObjectOfType<GameEventManager>().AddNewEventForTommorow( desc,  effect,  city,  uditionTOAdd);
+    }
+
     public List<float> moodHistory;
 
     public void RemoveEffect(int id)

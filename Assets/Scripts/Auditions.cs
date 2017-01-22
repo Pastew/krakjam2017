@@ -40,6 +40,30 @@ public class Auditions : MonoBehaviour {
             case 2:
                 AddNewAuditionToPanel(2, "Głos wytrwałości", effectDatabase.ProduceEffect(2), new int[] { });
                 break;
+            case 3:
+                AddNewAuditionToPanel(3, "Krytyka kapitalizmu", effectDatabase.ProduceEffect(6), new int[] {3,4,5});
+                break;
+            case 4:
+                AddNewAuditionToPanel(4, "Dokument o USA", effectDatabase.ProduceEffect(10), new int[] { 3, 4, 5 });
+                break;
+            case 5:
+                AddNewAuditionToPanel(5, "Pocieszenie Narodu", effectDatabase.ProduceEffect(13), new int[] { 3, 4, 5 });
+                break;
+            case 6:
+                AddNewAuditionToPanel(6, "Wsparcie zamachu", effectDatabase.ProduceEffect(7), new int[] { 6, 7, 8 });
+                break;
+            case 7:
+                AddNewAuditionToPanel(7, "Potępienie zamachu", effectDatabase.ProduceEffect(8), new int[] { 6, 7, 8 });
+                break;
+            case 8:
+                AddNewAuditionToPanel(8, "Oszukaj służby", effectDatabase.ProduceEffect(9), new int[] { 6, 7, 8 });
+                break;
+            case 9:
+                AddNewAuditionToPanel(7, "Zachwyt Ameryką", effectDatabase.ProduceEffect(11), new int[] { 11, 12 });
+                break;
+            case 10:
+                AddNewAuditionToPanel(8, "Wyolbrzymienie problemów USA", effectDatabase.ProduceEffect(12), new int[] { 11, 12 });
+                break;
         }
     }
 

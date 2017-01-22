@@ -2,10 +2,10 @@ Mono path[0] = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Managed'
 Mono path[1] = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Mono'
 Mono config path = 'D:/dev/wprowadze do gier/RedWave/bin/game_Data/Mono/etc'
 PlayerConnection initialized from D:/dev/wprowadze do gier/RedWave/bin/game_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55271
-Multi-casting "[IP] 172.20.47.154 [Port] 55271 [Flags] 2 [Guid] 3834847301 [EditorId] 880373169 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-IK3801I) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55271]
-PlayerConnection already initialized - listening to [0.0.0.0:55271]
+PlayerConnection initialized network socket : 0.0.0.0 55040
+Multi-casting "[IP] 172.20.47.154 [Port] 55040 [Flags] 2 [Guid] 3684138906 [EditorId] 3120228233 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-IK3801I) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55040]
+PlayerConnection already initialized - listening to [0.0.0.0:55040]
 Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -25,2629 +25,564 @@ Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityE
 Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.113 seconds
+- Completed reload, in  0.111 seconds
 Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.569842 ms
+UnloadTime: 1.731060 ms
+New spy spawned at (6.0, 2.0)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Spy:ResetSpy() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spy.cs:30)
+Spy:Start() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spy.cs:19)
+ 
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Spy.cs Line: 30)
+
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 281c -> priority: 1 
-Got force: (-230.8, 22.2)
+  Thread -> id: 27b8 -> priority: 1 
+New time scale: 10
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-NormalLightBulb:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\NormalLightBulb.cs:20)
+TimerMultiplierButton:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\TimerMultiplierButton.cs:13)
 UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
 UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
 UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
 UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/NormalLightBulb.cs Line: 20)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/TimerMultiplierButton.cs Line: 13)
 
-You chose antenna
+City will evaluate effect 4
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-AntennaButton:OnMouseUp()
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:124)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: C:/buildslave/unity/build/Runtime/Export/MouseEvents.cs Line: 18)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/City.cs Line: 124)
 
-Antena  turned off
+CITY DONATE
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:turnOff() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:103)
-Hand:selectAntenna(GameObject) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:28)
-AntennaButton:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\AntennaButton.cs:25)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+City:Donate()
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 103)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Effect4.cs Line: 25)
 
-Antena #1 turned off
+AddMoney exetudec. WIll add: 0
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:turnOff() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:103)
-Antenna:Start() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:26)
+Wallet:AddMoney(Int32) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Wallet.cs:35)
+City:Donate() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:31)
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 103)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Wallet.cs Line: 35)
 
-Placing antenna
+NEW money: 20000
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:37)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+Wallet:AddMoney(Int32) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Wallet.cs:36)
+City:Donate() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:31)
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Hand.cs Line: 37)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Wallet.cs Line: 36)
 
----Odległość między miastami---
+City will evaluate effect 4
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:59)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:124)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 59)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/City.cs Line: 124)
 
-Miasta w zasięgu:
+CITY DONATE
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:59)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+City:Donate()
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 59)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Effect4.cs Line: 25)
 
-Poznań: 73.92453 jest w zasięgu!
+AddMoney exetudec. WIll add: 0
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:69)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+Wallet:AddMoney(Int32) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Wallet.cs:35)
+City:Donate() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:31)
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 69)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Wallet.cs Line: 35)
 
-Miasta poza zasięgiem:
+NEW money: 20000
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:74)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+Wallet:AddMoney(Int32) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Wallet.cs:36)
+City:Donate() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:31)
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 74)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Wallet.cs Line: 36)
 
-Warszawa: 321.3533 jest poza zasiegiem
+New spy spawned at (4.0, 5.0)
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+Spy:ResetSpy() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spy.cs:30)
+Spy:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spy.cs:39)
+Spies:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spies.cs:10)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:51)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Spy.cs Line: 30)
 
-Gdansk: 285.8685 jest poza zasiegiem
+City will evaluate effect 4
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:124)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/City.cs Line: 124)
 
-Lublin: 420.8516 jest poza zasiegiem
+CITY DONATE
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+City:Donate()
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Effect4.cs Line: 25)
 
-Szczecin: 214.9143 jest poza zasiegiem
+AddMoney exetudec. WIll add: 0
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+Wallet:AddMoney(Int32) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Wallet.cs:35)
+City:Donate() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:31)
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Wallet.cs Line: 35)
 
-Bydgoszcz: 183.0798 jest poza zasiegiem
+NEW money: 20000
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+Wallet:AddMoney(Int32) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Wallet.cs:36)
+City:Donate() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:31)
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Wallet.cs Line: 36)
 
-Białystok: 424.5711 jest poza zasiegiem
+City will evaluate effect 4
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:124)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/City.cs Line: 124)
 
-Łódź: 194.5687 jest poza zasiegiem
+CITY DONATE
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+City:Donate()
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Effect4.cs Line: 25)
 
-Olsztyn: 324.3388 jest poza zasiegiem
+AddMoney exetudec. WIll add: 0
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+Wallet:AddMoney(Int32) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Wallet.cs:35)
+City:Donate() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:31)
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Wallet.cs Line: 35)
 
-Rzeszów: 405.1065 jest poza zasiegiem
+NEW money: 20000
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+Wallet:AddMoney(Int32) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Wallet.cs:36)
+City:Donate() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:31)
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Wallet.cs Line: 36)
 
-Kraków: 271.6709 jest poza zasiegiem
+New spy spawned at (0.0, 3.0)
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+Spy:ResetSpy() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spy.cs:30)
+Spy:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spy.cs:39)
+Spies:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spies.cs:10)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:51)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Spy.cs Line: 30)
 
-Katowice: 172.6448 jest poza zasiegiem
+New spy spawned at (4.0, 6.0)
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+Spy:ResetSpy() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spy.cs:30)
+Spy:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spy.cs:39)
+Spies:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spies.cs:10)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:51)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Spy.cs Line: 30)
 
-Kielce: 304.8743 jest poza zasiegiem
+City will evaluate effect 4
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:124)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/City.cs Line: 124)
 
-I am audition with id 0 and i was chosen! I want to remove these ids 
+CITY DONATE
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Audition:OnAuditionChosen() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Audition.cs:34)
-Auditions:AuditionClicked(Audition) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Auditions.cs:68)
-<AddNewAuditionToPanel>c__AnonStorey0:<>m__0() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Auditions.cs:57)
-UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
-UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:634)
-UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:769)
-UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
-UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
-UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
-UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:531)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:430)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:410)
-UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:184)
-UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
+City:Donate()
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Audition.cs Line: 34)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Effect4.cs Line: 25)
 
-1
+AddMoney exetudec. WIll add: 0
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Audition:OnAuditionChosen() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Audition.cs:35)
-Auditions:AuditionClicked(Audition) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Auditions.cs:68)
-<AddNewAuditionToPanel>c__AnonStorey0:<>m__0() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Auditions.cs:57)
-UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
-UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:634)
-UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:769)
-UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
-UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
-UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
-UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:531)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:430)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:410)
-UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:184)
-UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
+Wallet:AddMoney(Int32) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Wallet.cs:35)
+City:Donate() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:31)
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Audition.cs Line: 35)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Wallet.cs Line: 35)
 
-Antena #1 turned on
+NEW money: 20000
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:turnOn() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:113)
-AntennaControlPanel:TurnOnAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\AntennaControlPanel.cs:25)
-AntennaControlPanelOnOff:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\AntennaControlPanelOnOff.cs:24)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
+Wallet:AddMoney(Int32) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Wallet.cs:36)
+City:Donate() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:31)
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 113)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Wallet.cs Line: 36)
 
-Antenna tick
+City will evaluate effect 4
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:124)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/City.cs Line: 124)
 
-Antenna affectCities
+CITY DONATE
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
+City:Donate()
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Effect4.cs Line: 25)
 
-Antenna affect City Poznań
+AddMoney exetudec. WIll add: 0
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
+Wallet:AddMoney(Int32) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Wallet.cs:35)
+City:Donate() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:31)
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Wallet.cs Line: 35)
 
-Antenna tick
+NEW money: 20000
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
+Wallet:AddMoney(Int32) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Wallet.cs:36)
+City:Donate() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:31)
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Wallet.cs Line: 36)
 
-Antenna affectCities
+New spy spawned at (2.0, 6.0)
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
+Spy:ResetSpy() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spy.cs:30)
+Spy:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spy.cs:39)
+Spies:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spies.cs:10)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:51)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Spy.cs Line: 30)
 
-Antenna affect City Poznań
+New spy spawned at (0.0, 1.0)
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
+Spy:ResetSpy() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spy.cs:30)
+Spy:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spy.cs:39)
+Spies:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spies.cs:10)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:51)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Spy.cs Line: 30)
 
-Antenna tick
+City will evaluate effect 4
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:124)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/City.cs Line: 124)
 
-Antenna affectCities
+CITY DONATE
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
+City:Donate()
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Effect4.cs Line: 25)
 
-Antenna affect City Poznań
+AddMoney exetudec. WIll add: 0
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
+Wallet:AddMoney(Int32) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Wallet.cs:35)
+City:Donate() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:31)
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Wallet.cs Line: 35)
 
-Antenna tick
+NEW money: 20000
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
+Wallet:AddMoney(Int32) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Wallet.cs:36)
+City:Donate() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:31)
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Wallet.cs Line: 36)
 
-Antenna affectCities
+City will evaluate effect 4
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:124)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/City.cs Line: 124)
 
-Antenna affect City Poznań
+CITY DONATE
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
+City:Donate()
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Effect4.cs Line: 25)
 
-Antenna tick
+AddMoney exetudec. WIll add: 0
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
+Wallet:AddMoney(Int32) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Wallet.cs:35)
+City:Donate() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:31)
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Wallet.cs Line: 35)
 
-Antenna affectCities
+NEW money: 20000
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
+Wallet:AddMoney(Int32) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Wallet.cs:36)
+City:Donate() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:31)
+Effect4:evaluate(City) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Effect4.cs:25)
+City:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\City.cs:125)
+Cities:TickCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Cities.cs:27)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:47)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Wallet.cs Line: 36)
 
-Antenna affect City Poznań
+New spy spawned at (1.0, 5.0)
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
+Spy:ResetSpy() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spy.cs:30)
+Spy:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spy.cs:39)
+Spies:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Spies.cs:10)
+Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:51)
  
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-You chose antenna
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-AntennaButton:OnMouseUp()
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: C:/buildslave/unity/build/Runtime/Export/MouseEvents.cs Line: 18)
-
-Antena  turned off
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:turnOff() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:103)
-Hand:selectAntenna(GameObject) (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:28)
-AntennaButton:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\AntennaButton.cs:25)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 103)
-
-Antena #2 turned off
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:turnOff() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:103)
-Antenna:Start() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:26)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 103)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Placing antenna
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:37)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Hand.cs Line: 37)
-
----Odległość między miastami---
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:59)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 59)
-
-Miasta w zasięgu:
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:59)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 59)
-
-Olsztyn: 63.46677 jest w zasięgu!
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:69)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 69)
-
-Miasta poza zasięgiem:
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:74)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 74)
-
-Warszawa: 108.02 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Gdansk: 180.0738 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Lublin: 239.1701 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Szczecin: 367.885 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Bydgoszcz: 128.6744 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Poznań: 252.1526 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Białystok: 146.3515 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Łódź: 205.2275 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Rzeszów: 313.6188 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Kraków: 318.4007 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Katowice: 300.0812 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Kielce: 181.6695 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnAntennaPlaced() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:87)
-Hand:placeAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Hand.cs:43)
-Map:OnMouseUp() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Map.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:176)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antena #2 turned on
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:turnOn() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:113)
-AntennaControlPanel:TurnOnAntenna() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\AntennaControlPanel.cs:25)
-AntennaControlPanelOnOff:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\AntennaControlPanelOnOff.cs:24)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 113)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Olsztyn
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Olsztyn
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Olsztyn
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Olsztyn
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Olsztyn
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Olsztyn
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Olsztyn
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Olsztyn
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Olsztyn
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Olsztyn
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Olsztyn
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-LEFT CLICK
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:41)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 41)
-
----Odległość między miastami---
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:59)
-Antenna:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:44)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 59)
-
-Miasta w zasięgu:
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:59)
-Antenna:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:44)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 59)
-
-Poznań: 73.92453 jest w zasięgu!
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:69)
-Antenna:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:44)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 69)
-
-Miasta poza zasięgiem:
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:74)
-Antenna:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:44)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 74)
-
-Warszawa: 321.3533 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:44)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Gdansk: 285.8685 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:44)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Lublin: 420.8516 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:44)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Szczecin: 214.9143 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:44)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Bydgoszcz: 183.0798 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:44)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Białystok: 424.5711 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:44)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Łódź: 194.5687 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:44)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Olsztyn: 324.3388 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:44)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Rzeszów: 405.1065 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:44)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Kraków: 271.6709 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:44)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Katowice: 172.6448 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:44)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Kielce: 304.8743 jest poza zasiegiem
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:PopulateInfoPanel() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:79)
-Antenna:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:44)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 79)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Olsztyn
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Olsztyn
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Got force: (214.5, -70.7)
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-NormalLightBulb:OnMouseDown() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\NormalLightBulb.cs:20)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:18)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:164)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:144)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/NormalLightBulb.cs Line: 20)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Olsztyn
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Olsztyn
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Poznań
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
-
-Antenna tick
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:147)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 147)
-
-Antenna affectCities
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities()
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 150)
-
-Antenna affect City Olsztyn
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object)
-Antenna:affectCities() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:166)
-Antenna:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antenna.cs:150)
-Antennas:TickAntennas() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Antennas.cs:23)
-Timer:Tick() (at D:\dev\wprowadze do gier\RedWave\Assets\Scripts\Timer.cs:43)
- 
-(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Antenna.cs Line: 166)
+(Filename: D:/dev/wprowadze do gier/RedWave/Assets/Scripts/Spy.cs Line: 30)
 

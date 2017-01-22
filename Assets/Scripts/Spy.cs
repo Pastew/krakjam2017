@@ -7,7 +7,7 @@ public class Spy : MonoBehaviour {
     float x;
     float y;
     int threshold;
-    int counter;
+    public int counter;
 
     public bool visible;
 

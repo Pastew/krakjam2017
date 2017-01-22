@@ -19,6 +19,11 @@ public class Effect13 : Effect {
     {
         // CUSTOM Effect
         // uspokojenie (% -) 15% na 10sek
+        if (counter == 0)
+        {
+            city.WriteToDiary("Ludnoœæ jest spokojna.");
+            city.AddGovAttention(-5);
+        }
 
         if (counter >= lifeTime)
         {

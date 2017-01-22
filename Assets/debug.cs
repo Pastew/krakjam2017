@@ -6,6 +6,6 @@ public class debug : MonoBehaviour {
 
 	void OnMouseDown()
     {
-        FindObjectOfType<GameEventManager>().AddNewEventForTommorow("lalala", 1, "Warszawa", 1);
+       // FindObjectOfType<GameEventManager>().AddNewEventForTommorow("lalala", 1, "Warszawa", 1);
     }
 }

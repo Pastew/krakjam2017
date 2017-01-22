@@ -10,7 +10,7 @@ public class Effect9 : Effect {
     public Effect9()
     {
         id = 9;
-        lifeTime = 1;
+        lifeTime = 20;
         counter = 0;
         addition = 0;
     }
@@ -21,16 +21,24 @@ public class Effect9 : Effect {
         // emituj event Zamach powiódł się. Nixon ranny.
 
         // % + spory chaos
-
+        if(counter == 0)
+        {
+            city.WriteToDiary("Dzięki zmyleniu służb \nzamach się powiódł, prezydent nie żyje.");
+        }
         if (counter >= lifeTime)
         {
             city.RemoveEffect(id);
         }
-        
+
+        city.xM += (float)addition;
         counter++;
     }
 
-    public override void recalculateData(City city) {
-          
+    public override void recalculateData(City city)
+    {
+        float temp = (float)lifeTime;
+        float param = 1 + (city.population - 100000) / 225000;
+        lifeTime = (int)(param * temp);
+        addition = 0.3 * ((11 - city.population / 100000) * 0.05 + 0.5);
     }
 }

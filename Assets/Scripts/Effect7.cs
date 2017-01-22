@@ -10,7 +10,7 @@ public class Effect7 : Effect {
     public Effect7()
     {
         id = 7;
-        lifeTime = 1;
+        lifeTime = 10;
         counter = 0;
         addition = 0;
     }
@@ -21,19 +21,36 @@ public class Effect7 : Effect {
         // bez wzgledu na ifa umieszczamy w tym miescie AGENTA
         if (city.getName() == "Warszawa") {
             // jak w wawie to przypal, alarm
-        } else {
-            // jak poza wawa to mniejszy przypal
+            city.PlaceSpyHere();
+        }
+
+        if (counter == 0)
+        {
+            if (city.isInAnyAntennaRange())
+            {
+                city.WriteToDiary("Swoim nierozważnym działaniem zdenerwowałeś rząd");
+                city.AddGovAttention(20);
+            }
+            else
+            {
+                city.WriteToDiary("Zamachowcy zostali złapani, jednak tobie udało się uciec.");
+            }
         }
 
         if (counter >= lifeTime)
         {
             city.RemoveEffect(id);
         }
-        
+
+        city.xA += (float)addition;
         counter++;
     }
 
-    public override void recalculateData(City city) {
-          
+    public override void recalculateData(City city)
+    {
+        float temp = (float)lifeTime;
+        float param = 1 + (city.population - 100000) / 225000;
+        lifeTime = (int)(param * temp);
+        addition = -4 * ((11 - city.population / 100000) * 0.05 + 0.5);
     }
 }

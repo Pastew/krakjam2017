@@ -21,7 +21,7 @@ public class Timer : MonoBehaviour {
     private TextMesh textMesh;
 
     void Start () {
-        dateValue = new DateTime(1971, 3, 15, 12, 0, 0);
+        dateValue = new DateTime(1972, 4, 15, 12, 0, 0);
 
         InvokeRepeating("Tick", 0, tickEverySeconds);
 

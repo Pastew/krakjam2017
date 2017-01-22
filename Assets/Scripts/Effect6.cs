@@ -19,7 +19,8 @@ public class Effect6 : Effect {
     {
         // TODO
         // emituj EVENT: Plan zamachu - Wywrotowcy planują zamach na Nixona
-
+        List<int> auditions = new List<int>() { 6, 7 , 8};
+        city.InvokeGameEvent("Wywrotowcy planują zamach na Nixona", 11, "Warszawa", auditions);
         if (counter >= lifeTime)
         {
             city.RemoveEffect(id);

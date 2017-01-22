@@ -31,6 +31,8 @@ public class EffectDatabase : MonoBehaviour {
                 return new Effect2();
             case 4:
                 return new Effect4();
+            case 5:
+                return new Effect5();
         }
         return new Effect1();
     }

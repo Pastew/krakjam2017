@@ -49,13 +49,11 @@ public class GameEventManager : MonoBehaviour {
      * 
      * Example use: FindObjectOfType<GameEventManager>().AddNewEventForTommorow("lalala", 1, "Warszawa", 1);
     **/
-    public void AddNewEventForTommorow(string description, int effect, string affectedCityString, int auditionToAdd)
+    public void AddNewEventForTommorow(string description, int effect, string affectedCityString, List<int> auditions)
     {
         DateTime tommorow = FindObjectOfType<Timer>().GetTommorowDate();
 
         GameObject[] affectedCities = new GameObject[] { GameObject.Find(affectedCityString) };
-        List<int> auditions = new List<int>();
-        auditions.Add(auditionToAdd);
         AddNewEvent(description, tommorow, effect, affectedCities, auditions);
     }
    

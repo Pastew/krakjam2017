@@ -48,6 +48,12 @@ public class Government : MonoBehaviour {
         }
     }
 
+    internal void ChangeSpyPosition(Vector3 position)
+    {
+        spies[0].transform.position = position;
+        spies[0].GetComponent<Spy>().counter = 0;
+    }
+
     internal int HireAgent()
     {
         agents++;
