@@ -73,7 +73,7 @@ public class City : MonoBehaviour {
 
     internal void Tick()
     {
-        xA = 0;
+        xA = -1;
         xM = 1;
 
         foreach (KeyValuePair<int, Effect> e in effectsDict)
@@ -89,6 +89,32 @@ public class City : MonoBehaviour {
         }
         effectsToRemoveBeforeNextRound.Clear();
 
+        UpdateColor();
+    }
+
+    private void UpdateColor()
+    {
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+        float r = 0;
+        float g = 0;
+        float b = 0;
+
+        // R <0, 255>
+        // Mood <-1000, 1000>
+
+        if (mood < 0)
+        {
+            r = -mood / 1000.0f*2;
+            print("mood " + mood + ", R: " + r);
+        }
+        else
+        {
+            g = mood / 1000.0f*2;
+            print("mood " + mood + ", g: " + g);
+
+        }
+
+        sr.color = new Color(r,g,b);
     }
 
     public void AfterTick()
