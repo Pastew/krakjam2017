@@ -7,14 +7,19 @@ public class AntennaControlPanelBroadcastReiceve : MonoBehaviour {
     [SerializeField]
     Sprite receiveSprite;
 
+    public bool unlocked = false;
+
     void OnMouseDown()
     {
         Sprite currentSprite = GetComponent<SpriteRenderer>().sprite;
 
         if (currentSprite.Equals(broadcastSprite))
         {
-            GetComponentInParent<AntennaControlPanel>().SwitchToReiceve();
-            GetComponent<SpriteRenderer>().sprite = receiveSprite;
+            if (unlocked)
+            {
+                GetComponentInParent<AntennaControlPanel>().SwitchToReiceve();
+                GetComponent<SpriteRenderer>().sprite = receiveSprite;
+            }
         }
         else
         {
@@ -31,7 +36,8 @@ public class AntennaControlPanelBroadcastReiceve : MonoBehaviour {
 
     public void ChangeToReceive()
     {
-        GetComponent<SpriteRenderer>().sprite = receiveSprite;
+        if (unlocked)
+            GetComponent<SpriteRenderer>().sprite = receiveSprite;
     }
 
 
@@ -42,7 +48,8 @@ public class AntennaControlPanelBroadcastReiceve : MonoBehaviour {
 
     internal void Show()
     {
-        ChangeVisibility(true);
+        if(unlocked)
+            ChangeVisibility(true);
     }
 
     private void ChangeVisibility(bool visibility)

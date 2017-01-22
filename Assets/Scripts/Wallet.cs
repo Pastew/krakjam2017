@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Wallet : MonoBehaviour {
 
-    int money;
+    public int money;
 
 	void Start () {
         money = 20000;
