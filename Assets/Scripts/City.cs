@@ -143,14 +143,15 @@ public class City : MonoBehaviour {
     private void PopulateInfoPanel()
     {
         string message = gameObject.name + "\nPopulacja: " + population + "\n";
-        message += "Mood: " + mood + "\n";
-        message += "OwnMood: " + ownMood + "\n";
+        message += "Nastrój: " + (int)mood + "\n";
+        message += "Trend: " + String.Format("{0:0.00}", delta) + "\n";
 
-        message += "Efekty:\n";
-        foreach (KeyValuePair<int, Effect> e in effectsDict)
+        message += "Efekty: " + effectsDict.Keys.Count + " \n";
+        
+        /*foreach (KeyValuePair<int, Effect> e in effectsDict)
         {
             message += e.Value.id + ". " + e.Value.counter + ", " + e.Value.lifeTime;
-        }
+        }*/
         
 
         infoPanel.SetText(message);
