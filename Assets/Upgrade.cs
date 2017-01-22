@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -36,6 +35,12 @@ public class Upgrade : MonoBehaviour {
         if (!unlocked)
             return;
 
+        if (gameObject.name.Equals("Bribe"))
+        {
+            Bribe();
+            return;
+        }
+
         int availMoney = wallet.money;
         if(availMoney < cost)
         {
@@ -51,6 +56,22 @@ public class Upgrade : MonoBehaviour {
             UpgradePower();
         if (gameObject.name.Equals("HireAgent"))
             HireAgent();
+
+    }
+
+    private void Bribe()
+    {
+        int availMoney = wallet.money;
+        int cost = Random.Range(10, 500);
+        if (availMoney < cost)
+        {
+            return;
+        }
+        wallet.AddMoney(-cost);
+        int bribeValue = Random.Range(1, 5);
+        FindObjectOfType<Government>().Bribe(bribeValue);
+        string diaryMessage = "Przekupiono rząd za " + cost + " PLN.\nZainteresowanie zmniejszyło się o " + bribeValue;
+        FindObjectOfType<Diary>().WriteToDiary(diaryMessage);
     }
 
     private void HireAgent()
@@ -81,7 +102,9 @@ public class Upgrade : MonoBehaviour {
 
     void UpdatePrice()
     {
-        if(cost == 0)
+        if (cost == -1)
+            return;
+        if(cost == 10)
             GetComponentInChildren<TextMesh>().text = "wykupione!";
         else
             GetComponentInChildren<TextMesh>().text = cost.ToString() + " PLN";

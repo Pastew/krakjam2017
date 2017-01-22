@@ -54,6 +54,13 @@ public class Government : MonoBehaviour {
         return agents;
     }
 
+    internal void Bribe(int bribeValue)
+    {
+        attention -= bribeValue;
+        if (attention < 0)
+            attention = 0;
+    }
+
     private GameObject GenerateSpy()
     {
         GameObject spy = new GameObject();
