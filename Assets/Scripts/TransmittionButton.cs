@@ -13,7 +13,6 @@ public class TransmittionButton : MonoBehaviour {
 
     void Start()
     {
-        transmitting = false;
         ChangeToOFF();
     }
 
