@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,7 +11,6 @@ public class Wallet : MonoBehaviour {
 	void Start () {
         money = 20000;
         updateMoney();
-
     }
 
     public void Tick()
@@ -24,7 +24,15 @@ public class Wallet : MonoBehaviour {
         FindObjectOfType<MoneyPanel>().GetComponent<Text>().text = message;
 
     }
+
     void Update () {
 		
 	}
+
+    internal void AddMoney(int moneyToAdd)
+    {
+        money += moneyToAdd;
+        print("AddMoney exetudec. WIll add: " + moneyToAdd);
+        print("NEW money: " + money);
+    }
 }

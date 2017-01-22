@@ -20,6 +20,18 @@ public class City : MonoBehaviour {
     private List<int> effectsToRemoveBeforeNextRound;
 
     public float xM, xA;
+
+    internal void Donate()
+    {
+        print("CITY DONATE");
+        ScoreManager sm = FindObjectOfType<ScoreManager>();
+
+        int money = (int)((sm.todayScore - sm.previousMonthScore) / 10000);
+        money = (money > 0) ? money : 0;
+        FindObjectOfType<Wallet>().AddMoney(money);
+        sm.ResetPreviousScore();
+    }
+
     public List<float> moodHistory;
 
     public void RemoveEffect(int id)
@@ -78,6 +90,7 @@ public class City : MonoBehaviour {
 
         foreach (KeyValuePair<int, Effect> e in effectsDict)
         {
+            print("City will evaluate effect " + e.Value.id);
             e.Value.evaluate(this);
         }
 

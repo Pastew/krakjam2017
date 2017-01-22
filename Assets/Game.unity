@@ -563,7 +563,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1862972420}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &81824267
 MonoBehaviour:
@@ -577,7 +577,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: Audycjo dodawacz
-  affectedCities: []
+  affectedCities:
+  - {fileID: 468935277}
   effect: 0
   auditions: 0100000002000000
   date: 1952-05-5
@@ -2408,7 +2409,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7.1800337, y: 0.0000038146973}
+  m_AnchoredPosition: {x: -7.17999, y: 0.0000038146973}
   m_SizeDelta: {x: -14.360001, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &626554079
@@ -3091,6 +3092,52 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &772134319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 772134320}
+  - component: {fileID: 772134321}
+  m_Layer: 0
+  m_Name: SalaryEvent (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &772134320
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 772134319}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1862972420}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &772134321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 772134319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2191a559647b93e48bdee18a2da8e9c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: "Wyp\u0142ata"
+  affectedCities:
+  - {fileID: 1888038586}
+  effect: 4
+  auditions: 
+  date: 1971-06-1
 --- !u!1 &798620565
 GameObject:
   m_ObjectHideFlags: 0
@@ -3173,6 +3220,52 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
+--- !u!1 &805148353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 805148354}
+  - component: {fileID: 805148355}
+  m_Layer: 0
+  m_Name: SalaryEvent (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &805148354
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 805148353}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1862972420}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &805148355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 805148353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2191a559647b93e48bdee18a2da8e9c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: "Wyp\u0142ata"
+  affectedCities:
+  - {fileID: 1888038586}
+  effect: 4
+  auditions: 
+  date: 1971-08-1
 --- !u!1 &823400039
 GameObject:
   m_ObjectHideFlags: 0
@@ -3232,7 +3325,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1862972420}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &844318407
 MonoBehaviour:
@@ -3346,6 +3439,52 @@ Transform:
   m_PrefabParentObject: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7,
     type: 2}
   m_PrefabInternal: {fileID: 856777178}
+--- !u!1 &856799508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 856799509}
+  - component: {fileID: 856799510}
+  m_Layer: 0
+  m_Name: SalaryEvent (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &856799509
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 856799508}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1862972420}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &856799510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 856799508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2191a559647b93e48bdee18a2da8e9c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: "Wyp\u0142ata"
+  affectedCities:
+  - {fileID: 1888038586}
+  effect: 4
+  auditions: 
+  date: 1971-05-1
 --- !u!1 &861774494
 GameObject:
   m_ObjectHideFlags: 0
@@ -4677,7 +4816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tickEverySeconds: 1
-  hoursAddedEveryTick: 1
+  hoursAddedEveryTick: 24
 --- !u!1 &1252564944
 GameObject:
   m_ObjectHideFlags: 0
@@ -5053,6 +5192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b55bdc92b55d2a147b480a26ca728d02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  previousMonthScore: 0
+  todayScore: 0
 --- !u!1 &1289951008
 GameObject:
   m_ObjectHideFlags: 0
@@ -7830,9 +7971,14 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 334333985}
-  - {fileID: 2065866968}
   - {fileID: 81824266}
   - {fileID: 844318406}
+  - {fileID: 1889106474}
+  - {fileID: 856799509}
+  - {fileID: 772134320}
+  - {fileID: 1899574062}
+  - {fileID: 805148354}
+  - {fileID: 1951217820}
   m_Father: {fileID: 258084339}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7852,6 +7998,52 @@ GameObject:
   m_PrefabParentObject: {fileID: 1344373862870286, guid: d66e711b273b9674ebf62009168e31d7,
     type: 2}
   m_PrefabInternal: {fileID: 590800347}
+--- !u!1 &1889106473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1889106474}
+  - component: {fileID: 1889106475}
+  m_Layer: 0
+  m_Name: SalaryEvent (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1889106474
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1889106473}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1862972420}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1889106475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1889106473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2191a559647b93e48bdee18a2da8e9c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: "Wyp\u0142ata"
+  affectedCities:
+  - {fileID: 1888038586}
+  effect: 4
+  auditions: 
+  date: 1971-04-1
 --- !u!1 &1897218573
 GameObject:
   m_ObjectHideFlags: 0
@@ -7927,6 +8119,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cf9df0d30ddb3e45835519fca83736c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1899574061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1899574062}
+  - component: {fileID: 1899574063}
+  m_Layer: 0
+  m_Name: SalaryEvent (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1899574062
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1899574061}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1862972420}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1899574063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1899574061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2191a559647b93e48bdee18a2da8e9c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: "Wyp\u0142ata"
+  affectedCities:
+  - {fileID: 1888038586}
+  effect: 4
+  auditions: 
+  date: 1971-07-1
 --- !u!1 &1910442686
 GameObject:
   m_ObjectHideFlags: 0
@@ -8424,6 +8662,52 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
+--- !u!1 &1951217819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1951217820}
+  - component: {fileID: 1951217821}
+  m_Layer: 0
+  m_Name: SalaryEvent (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1951217820
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1951217819}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1862972420}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1951217821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1951217819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2191a559647b93e48bdee18a2da8e9c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: "Wyp\u0142ata"
+  affectedCities:
+  - {fileID: 1888038586}
+  effect: 4
+  auditions: 
+  date: 1971-09-1
 --- !u!1 &1973507034
 GameObject:
   m_ObjectHideFlags: 0
@@ -8782,51 +9066,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b70aa3475ae2d149b24f7e303e75e6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &2065866967
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2065866968}
-  - component: {fileID: 2065866969}
-  m_Layer: 0
-  m_Name: SalaryEvent
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2065866968
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2065866967}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1862972420}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2065866969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2065866967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2191a559647b93e48bdee18a2da8e9c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: "Wyp\u0142ata"
-  affectedCities: []
-  effect: 0
-  auditions: 
-  date: 1952-05-4
 --- !u!1 &2073202270
 GameObject:
   m_ObjectHideFlags: 0
@@ -9016,8 +9255,9 @@ GameObject:
   - component: {fileID: 2123220712}
   - component: {fileID: 2123220714}
   - component: {fileID: 2123220713}
+  - component: {fileID: 2123220715}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Money
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9080,6 +9320,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2123220711}
+--- !u!114 &2123220715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2123220711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae0a65b5c132494db923c77efbb941f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2135142969
 GameObject:
   m_ObjectHideFlags: 0

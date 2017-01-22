@@ -21,7 +21,7 @@ public class Timer : MonoBehaviour {
     private TextMesh textMesh;
 
     void Start () {
-        dateValue = new DateTime(1952, 5, 3, 12, 0, 0);
+        dateValue = new DateTime(1971, 3, 15, 12, 0, 0);
 
         InvokeRepeating("Tick", 0, tickEverySeconds);
 
@@ -29,6 +29,11 @@ public class Timer : MonoBehaviour {
         cities = FindObjectOfType<Cities>();
         antennas = FindObjectOfType<Antennas>();
         gameEventManager = FindObjectOfType<GameEventManager>();
+    }
+
+    internal string GetDateForDiary()
+    {
+        return dateValue.Year + "-" + dateValue.Month + "-" + dateValue.Day + " ";
     }
 
     internal DateTime GetDate()
@@ -55,7 +60,7 @@ public class Timer : MonoBehaviour {
         dateValue = dateValue.AddHours(hoursAddedEveryTick);
         textMesh.text = dateValue.ToString();
         ticks++;
-        textMesh.text = dateValue.Year + "-" + dateValue.Month + "-" + dateValue.Day + "  " + dateValue.Hour + ":00  ";
+        textMesh.text = dateValue.Year + "-" + dateValue.Month + "-" + dateValue.Day;
     }
 
     internal int GetTick()

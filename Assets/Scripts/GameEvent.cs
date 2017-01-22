@@ -24,7 +24,7 @@ public class GameEvent : MonoBehaviour {
 
     public void Execute()
     {
-        diary.WriteToDiary("Wydarzenie: " + description);
+        diary.WriteToDiary(affectedCities[0].name + ": " + description);
         if(auditions != null)
         {
             AddAuditions(auditions);
