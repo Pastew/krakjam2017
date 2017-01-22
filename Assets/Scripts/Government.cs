@@ -67,8 +67,19 @@ public class Government : MonoBehaviour {
     public void Tick()
     {
         checkSpies();
+        searchForSmellingBastardsFromResistance();
         agentsAction();
         FindObjectOfType<Termometer>().SetLevel(attention / 100f);
+    }
+
+    private void searchForSmellingBastardsFromResistance()
+    {
+        foreach(Spy s in FindObjectOfType<Spies>().GetComponentsInChildren<Spy>())
+        {
+            if (s.Receive())
+                break;
+        }
+
     }
 
     private void agentsAction()
