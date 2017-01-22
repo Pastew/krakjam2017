@@ -34,8 +34,6 @@ public class City : MonoBehaviour {
         float d = population / 10000 * 6;
         //this.offset = r.nextInt(d.intValue());
         offset = (int)UnityEngine.Random.Range(0f, d);
-        if(name.Equals("Warszawa"))
-            print(name + " starting offset: " + offset);
         effectsDict = new Dictionary<int, Effect>();
         effectsToRemoveBeforeNextRound = new List<int>();
     }
@@ -44,8 +42,6 @@ public class City : MonoBehaviour {
     {
         delta = ownMood + calculateOtherWaves();
         mood += delta;
-        if (name.Equals("Warszawa"))
-            print(name + " mood: " + mood + " ownMod: " + ownMood + " delta: " + delta);
     }
     
     public void setOwnMood(int tick)

@@ -1,17 +1,21 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Government : MonoBehaviour {
 
+    int MAX_ATTENTION = 100;
+    int MIN_ATTENTION = 0;
     int attention;
     int agents;
-    List<Spy> spies;
+    List<GameObject> spies;
+    public GameObject spyPrefab;
 
     void Start () {
-        attention = 0;
+        attention = 1;
         agents = 0;
-        spies = new List<Spy>();
+        spies = new List<GameObject>();
     }
 
     public void stepGov()
@@ -23,11 +27,10 @@ public class Government : MonoBehaviour {
     public void checkSpies()
     {
         int i = attention;
-
-        if (i > 0 && i <= 50 && spies.Count < 1) spies.Add(new Spy());
-        else if (i > 50 && i <= 75 && spies.Count < 2) spies.Add(new Spy());
-        else if (i > 75 && i <= 90 && spies.Count < 3) spies.Add(new Spy());
-        else if (i > 90 && i <= 100 && spies.Count < 5) spies.Add(new Spy());
+        if (i > 0 && i <= 50 && spies.Count < 1) spies.Add(GenerateSpy());
+        else if (i > 50 && i <= 75 && spies.Count < 2) spies.Add(GenerateSpy());
+        else if (i > 75 && i <= 90 && spies.Count < 3) spies.Add(GenerateSpy());
+        else if (i > 90 && i <= 100 && spies.Count < 5) spies.Add(GenerateSpy());
 
 
         if (i == 0 && spies.Count > 0) spies.Clear();
@@ -35,27 +38,33 @@ public class Government : MonoBehaviour {
         else if (i > 50 && i <= 75 && spies.Count > 2) spies.RemoveAt(spies.Count - 1);
         else if (i > 75 && i <= 90 && spies.Count > 3)
         {
-
             if (spies.Count == 4) spies.RemoveAt(3);
             else if (spies.Count == 5) { spies.RemoveAt(4); spies.RemoveAt(3); }
 
         }
     }
 
-    public void changeGov(int delta)
+    private GameObject GenerateSpy()
     {
-
-        attention += delta;
-        checkSpies();
-
+        GameObject spy = new GameObject();
+        spy.AddComponent<Spy>();
+        return spy;
     }
 
-    public void stepSpies()
+    internal void IncreaseAttention()
     {
-        for (int i = this.spies.Count - 1; i >= 0; i--)
-        {
-            spies[i].stepSpy();
-        }
+        attention += 1;
+    }
+
+    public void changeGov(int delta)
+    {
+        attention += delta;
+        checkSpies();
+    }
+
+    public void Tick()
+    {
+        checkSpies();
     }
 
 }
