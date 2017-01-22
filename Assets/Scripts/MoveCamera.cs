@@ -36,7 +36,7 @@ public class MoveCamera : MonoBehaviour {
 
     public void OpenBottomLeft()
     {
-        MoveCameraToVec3(new Vector3(-15f, -10f, 0));
+        MoveCameraToVec3(new Vector3(-10f, -7f, 0));
     }
 
     public void MoveCameraToVec3(Vector3 destinationPos)
