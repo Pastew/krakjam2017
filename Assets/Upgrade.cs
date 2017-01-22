@@ -15,6 +15,13 @@ public class Upgrade : MonoBehaviour {
         wallet = FindObjectOfType<Wallet>();
     }
 
+    internal void SetCost(int newCost)
+    {
+        cost = newCost;
+        UpdatePrice();
+
+    }
+
     void Tick()
     {
     }

@@ -29,4 +29,34 @@ public class GameEventManager : MonoBehaviour {
                 
         }
     }
+
+    public void AddNewEvent(string description, DateTime datetime, int effect, GameObject[] affectedCities, List<int> auditions)
+    {
+        Transform parent = FindObjectOfType<DateGameEvents>().transform;
+        GameObject go = new GameObject();
+        go.transform.parent = parent;
+
+        GameEvent gameEvent = go.AddComponent<GameEvent>();
+        gameEvent.description = description;
+        gameEvent.dateTime = datetime;
+        gameEvent.effect = effect;
+        gameEvent.affectedCities = affectedCities;
+        gameEvent.auditions = auditions;
+        gameEvent.date = datetime.Date.ToString();        
+    }
+
+    /**
+     * 
+     * Example use: FindObjectOfType<GameEventManager>().AddNewEventForTommorow("lalala", 1, "Warszawa", 1);
+    **/
+    public void AddNewEventForTommorow(string description, int effect, string affectedCityString, int auditionToAdd)
+    {
+        DateTime tommorow = FindObjectOfType<Timer>().GetTommorowDate();
+
+        GameObject[] affectedCities = new GameObject[] { GameObject.Find(affectedCityString) };
+        List<int> auditions = new List<int>();
+        auditions.Add(auditionToAdd);
+        AddNewEvent(description, tommorow, effect, affectedCities, auditions);
+    }
+   
 }

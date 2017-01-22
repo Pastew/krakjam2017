@@ -10,7 +10,7 @@ public class Government : MonoBehaviour {
     public int agents, agentTimer;
     List<GameObject> spies;
 
-    int agentsRemovalCounter;
+    public int agentsRemovalCounter;
 
     void Start () {
         agentsRemovalCounter = 0;

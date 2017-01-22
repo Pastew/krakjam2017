@@ -67,4 +67,10 @@ public class Timer : MonoBehaviour {
     {
         return ticks;
     }
+
+    public DateTime GetTommorowDate()
+    {
+        DateTime tommorow = dateValue.AddDays(1);
+        return tommorow;
+    }
 }
