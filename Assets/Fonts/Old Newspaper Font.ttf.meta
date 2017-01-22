@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 48ab31e786551d241b6d867a93d95b8d
+timeCreated: 1485047951
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Old newspaper font
+  fontNames:
+  - Old newspaper font
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -43,6 +43,7 @@ public class Timer : MonoBehaviour {
         antennas.TickAntennas();
         gameEventManager.Tick();
         FindObjectOfType<DataManager>().Tick();
+        FindObjectOfType<ScoreManager>().Tick();
     }
 
     private void UpdateClock()

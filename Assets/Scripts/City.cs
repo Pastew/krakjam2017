@@ -7,11 +7,9 @@ public class City : MonoBehaviour {
 
     InfoPanel infoPanel;
 
-    [SerializeField]
-    private int population = 100;
+    public int population = 100;
 
-    [SerializeField]
-    private float mood = 100;
+    public float mood = 100;
 
     private float delta = 5;
     private int offset;
