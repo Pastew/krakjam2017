@@ -9,9 +9,7 @@ public class Spy : MonoBehaviour {
     int threshold;
     int counter;
 
-    bool visible;
-
-    float radius;
+    public bool visible;
 
     Government gov;
 
@@ -24,7 +22,6 @@ public class Spy : MonoBehaviour {
     private void ResetSpy()
     {
         gov = FindObjectOfType<Government>();
-        radius = 100;
         counter = 0;
         x = Random.Range(0, 7);
         y = Random.Range(0, 7);
@@ -56,12 +53,22 @@ public class Spy : MonoBehaviour {
         {
             if (a.isTurnedOn())
             {
-                if(Utils.Distance2DinKm(transform.position, a.transform.position) <= radius)
+                if(Utils.Distance2DinKm(transform.position, a.transform.position) <= a.radius)
                 {
                     gov.IncreaseAttention();
                     break;
                 }
             }
         }
+    }
+
+    internal void Show()
+    {
+        GetComponent<SpriteRenderer>().enabled = true;
+    }
+
+    internal void Hide()
+    {
+        GetComponent<SpriteRenderer>().enabled = false;
     }
 }

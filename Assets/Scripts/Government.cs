@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,14 +7,18 @@ public class Government : MonoBehaviour {
     int MAX_ATTENTION = 100;
     int MIN_ATTENTION = 0;
     int attention;
-    int agents;
+    int agents, agentTimer;
     List<GameObject> spies;
     public GameObject spyPrefab;
 
+    int agentsRemovalCounter;
+
     void Start () {
+        agentsRemovalCounter = 0;
         attention = 1;
         agents = 0;
         spies = new List<GameObject>();
+        agentTimer = 0;
     }
 
     public void stepGov()
@@ -65,6 +68,36 @@ public class Government : MonoBehaviour {
     public void Tick()
     {
         checkSpies();
+        agentsAction();        
     }
 
+    private void agentsAction()
+    {
+        agentTimer++;
+        if (agentTimer >= 30)
+        {
+            agentTimer = 0;
+            if (agents == 0)
+                return;
+
+            int x = Random.Range(1, 101);
+            if (x <= (agents * 2))
+            {
+                ShowSpies();
+            }
+            else if (x > 100 - agents)
+            {
+                agents--;
+                agentsRemovalCounter++;
+            }
+        }
+    }
+
+    private void ShowSpies()
+    {
+        foreach (GameObject s in spies)
+        {
+            s.GetComponent<Spy>().visible = true;
+        }
+    }
 }
