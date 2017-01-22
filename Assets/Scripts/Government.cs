@@ -9,6 +9,8 @@ public class Government : MonoBehaviour {
     public int attention;
     public int agents, agentTimer;
     List<GameObject> spies;
+    public Sprite spySprite;
+
 
     public int agentsRemovalCounter;
 
@@ -55,7 +57,11 @@ public class Government : MonoBehaviour {
     private GameObject GenerateSpy()
     {
         GameObject spy = new GameObject();
+        spy.name = "Spy";
         spy.AddComponent<Spy>();
+        spy.AddComponent<SpriteRenderer>();
+        spy.GetComponent<SpriteRenderer>().sprite = spySprite;
+        spy.GetComponent<Spy>().Hide();
         return spy;
     }
 
@@ -106,6 +112,7 @@ public class Government : MonoBehaviour {
             {
                 agents--;
                 agentsRemovalCounter++;
+                FindObjectOfType<Diary>().WriteToDiary("Rząd wykrył i pozbył się agenta");
             }
         }
     }
