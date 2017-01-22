@@ -1,16 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Wallet : MonoBehaviour {
 
-	// Use this for initialization
+    int money;
+
 	void Start () {
-		
-	}
+        money = 20000;
+        updateMoney();
+
+    }
+
+    public void Tick()
+    {
+        updateMoney();
+    }
 	
-	// Update is called once per frame
-	void Update () {
+    public void updateMoney()
+    {
+        string message = "Konto: " + money + " PLN";
+        FindObjectOfType<MoneyPanel>().GetComponent<Text>().text = message;
+
+    }
+    void Update () {
 		
 	}
 }
