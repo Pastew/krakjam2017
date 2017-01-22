@@ -56,6 +56,7 @@ public class City : MonoBehaviour {
     {
         delta = ownMood + calculateOtherWaves();
         mood += delta;
+        mood = Mathf.Clamp(mood, -1000, 1000);
     }
     
     public void setOwnMood(int tick)
