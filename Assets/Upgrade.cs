@@ -49,6 +49,13 @@ public class Upgrade : MonoBehaviour {
             UpgradeReceivers();
         if (gameObject.name.Equals("Power"))
             UpgradePower();
+        if (gameObject.name.Equals("HireAgent"))
+            HireAgent();
+    }
+
+    private void HireAgent()
+    {
+        
     }
 
     private void UpgradePower()

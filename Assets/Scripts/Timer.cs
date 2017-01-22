@@ -53,6 +53,7 @@ public class Timer : MonoBehaviour {
         FindObjectOfType<ScoreManager>().Tick();
         FindObjectOfType<DataManager>().Tick();
         FindObjectOfType<Wallet>().Tick();
+        FindObjectOfType<AgentPriceUpdateer>().Tick();
     }
 
     private void UpdateClock()
