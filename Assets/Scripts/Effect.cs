@@ -10,6 +10,8 @@ public abstract class Effect
     public int lifeTime;
 
     public abstract void evaluate(City city);
+    public abstract void recalculateData(City city);
+
 
     internal int GetID()
     {

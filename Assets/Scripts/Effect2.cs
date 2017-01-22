@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Effect1 : Effect {
+public class Effect2 : Effect {
 
     private float addition;
 
-    public Effect1()
+    public Effect2()
     {
         id = 1;
         lifeTime = 7;
