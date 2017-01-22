@@ -3,16 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DataManager : MonoBehaviour {
-
-	void Start () {
-	}
-	
-	void Update () {
-		
-	}
-
+public class Spies : MonoBehaviour {
     internal void Tick()
     {
+        foreach (Spy s in GetComponentsInChildren<Spy>())
+            s.Tick();
     }
 }

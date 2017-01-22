@@ -42,8 +42,11 @@ public class Timer : MonoBehaviour {
         cities.TickCities();
         antennas.TickAntennas();
         gameEventManager.Tick();
-        FindObjectOfType<DataManager>().Tick();
+        FindObjectOfType<Government>().Tick();
+        FindObjectOfType<Spies>().Tick();
+
         FindObjectOfType<ScoreManager>().Tick();
+        FindObjectOfType<DataManager>().Tick();
     }
 
     private void UpdateClock()
