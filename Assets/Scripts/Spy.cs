@@ -66,6 +66,7 @@ public class Spy : MonoBehaviour {
     internal void Show()
     {
         GetComponent<SpriteRenderer>().enabled = true;
+        Invoke("Hide", 30);
     }
 
     internal void Hide()

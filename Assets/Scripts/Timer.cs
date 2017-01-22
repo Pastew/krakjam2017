@@ -53,6 +53,7 @@ public class Timer : MonoBehaviour {
         FindObjectOfType<ScoreManager>().Tick();
         FindObjectOfType<DataManager>().Tick();
         FindObjectOfType<Wallet>().Tick();
+        FindObjectOfType<AgentPriceUpdateer>().Tick();
     }
 
     private void UpdateClock()
@@ -66,5 +67,11 @@ public class Timer : MonoBehaviour {
     internal int GetTick()
     {
         return ticks;
+    }
+
+    public DateTime GetTommorowDate()
+    {
+        DateTime tommorow = dateValue.AddDays(1);
+        return tommorow;
     }
 }
