@@ -13,7 +13,7 @@ public class Timer : MonoBehaviour {
 
 
     private DateTime dateValue;
-    private float ticks = 0;
+    private int ticks = 0;
     Cities cities;
     Antennas antennas;
     GameEventManager gameEventManager;
@@ -42,6 +42,7 @@ public class Timer : MonoBehaviour {
         cities.TickCities();
         antennas.TickAntennas();
         gameEventManager.Tick();
+        FindObjectOfType<DataManager>().Tick();
     }
 
     private void UpdateClock()
@@ -50,5 +51,10 @@ public class Timer : MonoBehaviour {
         textMesh.text = dateValue.ToString();
         ticks++;
         textMesh.text = dateValue.Year + "-" + dateValue.Month + "-" + dateValue.Day + "  " + dateValue.Hour + ":00  ";
+    }
+
+    internal int GetTick()
+    {
+        return ticks;
     }
 }

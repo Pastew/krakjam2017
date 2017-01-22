@@ -25,8 +25,6 @@ public class GameEventManager : MonoBehaviour {
                 if (gameEvent.dateTime.Date.Equals(timer.GetDate().Date))
                     gameEvent.Execute();
 
-                print("Game Event: " + gameEvent.dateTime.Date);
-                print("Timer: " + timer.GetDate().Date);
             }
                 
         }

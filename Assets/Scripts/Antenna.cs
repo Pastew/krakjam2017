@@ -30,7 +30,6 @@ public class Antenna : MonoBehaviour {
     {
         if (Input.GetMouseButtonDown(1))
         {
-            print("RIGHT CLICK");
             FindObjectOfType<Hand>().selectAntenna(gameObject);
         }
     }
@@ -39,8 +38,6 @@ public class Antenna : MonoBehaviour {
     {
         if (Input.GetMouseButtonDown(0))
         {
-            print("LEFT CLICK");
-
             PopulateInfoPanel();
             ShowAntennaControlPanel();
         }

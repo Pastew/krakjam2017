@@ -500,7 +500,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1862972420}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &81824267
 MonoBehaviour:
@@ -514,10 +514,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: Audycjo dodawacz
-  affectedCities:
-  - "Gda\u0144sk"
-  - Warszawa
-  effect: 4
+  affectedCities: []
+  effect: 0
   auditions: 0100000002000000
   date: 1952-05-5
 --- !u!1 &112286134
@@ -1233,6 +1231,52 @@ Transform:
   m_PrefabParentObject: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7,
     type: 2}
   m_PrefabInternal: {fileID: 590800347}
+--- !u!1 &334333984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 334333985}
+  - component: {fileID: 334333986}
+  m_Layer: 0
+  m_Name: Everything
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &334333985
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 334333984}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1862972420}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334333986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 334333984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2191a559647b93e48bdee18a2da8e9c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Wszystko
+  affectedCities:
+  - {fileID: 423985849}
+  effect: 2
+  auditions: 010000000200000000000000
+  date: 1952-05-5
 --- !u!1 &349679248
 GameObject:
   m_ObjectHideFlags: 0
@@ -1343,6 +1387,16 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
+--- !u!1 &423985849 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1344373862870286, guid: d66e711b273b9674ebf62009168e31d7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1703518110}
+--- !u!1 &468935277 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1344373862870286, guid: d66e711b273b9674ebf62009168e31d7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1521002275}
 --- !u!1 &469984462
 GameObject:
   m_ObjectHideFlags: 0
@@ -2290,7 +2344,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7.17999, y: 0.0000038146973}
+  m_AnchoredPosition: {x: -0.000022888184, y: 0.0000038146973}
   m_SizeDelta: {x: -14.360001, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &626554079
@@ -2833,6 +2887,7 @@ Transform:
   - {fileID: 469984463}
   - {fileID: 2135142970}
   - {fileID: 258084339}
+  - {fileID: 2027415699}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2988,7 +3043,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1862972420}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &844318407
 MonoBehaviour:
@@ -3003,8 +3058,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description: "Co\u015B si\u0119 dzieje w Gda\u0144ski i WaWie"
   affectedCities:
-  - "Gda\u0144sk"
-  - Warszawa
+  - {fileID: 1888038586}
+  - {fileID: 468935277}
   effect: 3
   auditions: 
   date: 1952-05-6
@@ -6744,6 +6799,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 334333985}
   - {fileID: 2065866968}
   - {fileID: 81824266}
   - {fileID: 844318406}
@@ -6761,6 +6817,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddac276390d8afc43a4f844022b394e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1888038586 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1344373862870286, guid: d66e711b273b9674ebf62009168e31d7,
+    type: 2}
+  m_PrefabInternal: {fileID: 590800347}
 --- !u!1 &1897218573
 GameObject:
   m_ObjectHideFlags: 0
@@ -7635,6 +7696,46 @@ Light:
   m_BounceIntensity: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &2027415698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2027415699}
+  - component: {fileID: 2027415700}
+  m_Layer: 0
+  m_Name: DataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2027415699
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2027415698}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 743632586}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2027415700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2027415698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b70aa3475ae2d149b24f7e303e75e6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2065866967
 GameObject:
   m_ObjectHideFlags: 0
@@ -7662,7 +7763,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1862972420}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2065866969
 MonoBehaviour:

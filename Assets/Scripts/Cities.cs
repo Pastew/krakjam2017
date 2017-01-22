@@ -26,5 +26,9 @@ public class Cities : MonoBehaviour {
         {
             city.Tick();
         }
+        foreach (City city in cities)
+        {
+            city.AfterTick();
+        }
     }
 }

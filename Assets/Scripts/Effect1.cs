@@ -12,16 +12,14 @@ public class Effect1 : Effect {
         counter = 0;
     }
 
-    public override bool evaluate(City city)
+    public override void evaluate(City city)
     {
         if (counter >= lifeTime)
         {
             city.RemoveEffect(id);
-            return false;
         }
 
+        city.xA += 1;
         counter++;
-        city.setMood(10);
-        return true;
     }
 }

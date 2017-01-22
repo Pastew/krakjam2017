@@ -9,7 +9,7 @@ public abstract class Effect
     public int counter;
     public int lifeTime;
 
-    public abstract bool evaluate(City city);
+    public abstract void evaluate(City city);
 
     internal int GetID()
     {
