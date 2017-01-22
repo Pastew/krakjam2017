@@ -20,6 +20,13 @@ public class AntennaButton : MonoBehaviour {
     void OnMouseUp()
     {
         print("You chose antenna");
+        Wallet w = FindObjectOfType<Wallet>();
+        if (w.money < 1500)
+            return;
+
+        w.AddMoney(-1500);
+        w.updateMoney();
+
         GameObject newAntenna = Instantiate(antenna);
         newAntenna.GetComponent<Collider2D>().enabled = false;
         hand.selectAntenna(newAntenna);

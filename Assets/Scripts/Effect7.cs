@@ -19,7 +19,7 @@ public class Effect7 : Effect {
     {
         // CUSTOM Effect
         // bez wzgledu na ifa umieszczamy w tym miescie AGENTA
-        if (city.getName() == 'Warszawa') {
+        if (city.getName() == "Warszawa") {
             // jak w wawie to przypal, alarm
         } else {
             // jak poza wawa to mniejszy przypal
