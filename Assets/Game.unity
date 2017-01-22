@@ -783,13 +783,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 191267130}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.05, y: -1.17, z: -2.56}
+  m_LocalRotation: {x: -0, y: -0, z: 0.058275733, w: 0.99830055}
+  m_LocalPosition: {x: -0.75, y: -1.1, z: -2.56}
   m_LocalScale: {x: 0.37061816, y: 0.37061808, z: 0.37061808}
   m_Children: []
   m_Father: {fileID: 621998362}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 6.682}
 --- !u!102 &191267132
 TextMesh:
   serializedVersion: 3
@@ -807,7 +807,7 @@ TextMesh:
   m_FontSize: 0
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 0}
+  m_Font: {fileID: 12800000, guid: 48ab31e786551d241b6d867a93d95b8d, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -824,7 +824,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: 48ab31e786551d241b6d867a93d95b8d, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3578,6 +3578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   broadcastSprite: {fileID: 21300000, guid: d7cb3b48b94f6b14d932b83f31206e70, type: 3}
   receiveSprite: {fileID: 21300000, guid: 2fe42f76c584dee4a8a9b6327f760abf, type: 3}
+  unlocked: 0
 --- !u!61 &861774498
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4580,13 +4581,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1024544295}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.75, y: -1.25, z: -2.56}
+  m_LocalRotation: {x: -0, y: -0, z: -0.093820594, w: 0.9955892}
+  m_LocalPosition: {x: -1.26, y: -0.82, z: -2.56}
   m_LocalScale: {x: 0.37061816, y: 0.37061808, z: 0.37061808}
   m_Children: []
   m_Father: {fileID: 1011417869}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -10.767}
 --- !u!102 &1024544297
 TextMesh:
   serializedVersion: 3
@@ -4604,7 +4605,7 @@ TextMesh:
   m_FontSize: 0
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 0}
+  m_Font: {fileID: 12800000, guid: 48ab31e786551d241b6d867a93d95b8d, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -4621,7 +4622,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: 48ab31e786551d241b6d867a93d95b8d, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8646,13 +8647,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1950927218}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.09528807, w: 0.9954498}
   m_LocalPosition: {x: -0.59, y: -1.11, z: -2.56}
   m_LocalScale: {x: 0.37061816, y: 0.37061808, z: 0.37061808}
   m_Children: []
   m_Father: {fileID: 1009881326}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 10.936001}
 --- !u!102 &1950927220
 TextMesh:
   serializedVersion: 3
@@ -8670,7 +8671,7 @@ TextMesh:
   m_FontSize: 0
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 0}
+  m_Font: {fileID: 12800000, guid: 48ab31e786551d241b6d867a93d95b8d, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -8687,7 +8688,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: 48ab31e786551d241b6d867a93d95b8d, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

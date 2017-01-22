@@ -46,11 +46,18 @@ public class Upgrade : MonoBehaviour {
 
     private void UpgradePower()
     {
+        foreach (Antenna a in FindObjectsOfType<Antenna>()){
+            a.radius *= 1.1f;
+        }
+        cost = (int)(cost * 1.5f);
+        UpdatePrice();
     }
 
     private void UpgradeReceivers()
     {
         FindObjectOfType<AntennaControlPanelBroadcastReiceve>().unlocked = true;
+        cost = 0;
+        UpdatePrice();
     }
 
     private void UpgradeFrequency()
@@ -59,6 +66,9 @@ public class Upgrade : MonoBehaviour {
 
     void UpdatePrice()
     {
-        GetComponentInChildren<TextMesh>().text = cost.ToString() + " PLN";
+        if(cost == 0)
+            GetComponentInChildren<TextMesh>().text = "wykupione!";
+        else
+            GetComponentInChildren<TextMesh>().text = cost.ToString() + " PLN";
     }
 }

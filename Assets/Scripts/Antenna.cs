@@ -11,7 +11,7 @@ public class Antenna : MonoBehaviour {
     private string antennaName;
     private GameObject wave;
 
-    public int radius = 10;
+    public float radius = 10;
     private bool broadcasting;
     private bool turnedOn;
 
