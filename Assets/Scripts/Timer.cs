@@ -47,7 +47,6 @@ public class Timer : MonoBehaviour {
 
         FindObjectOfType<ScoreManager>().Tick();
         FindObjectOfType<DataManager>().Tick();
-        FindObjectOfType<Chart>().Tick();
     }
 
     private void UpdateClock()

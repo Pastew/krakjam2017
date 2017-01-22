@@ -9,7 +9,6 @@ public class Government : MonoBehaviour {
     int attention;
     int agents, agentTimer;
     List<GameObject> spies;
-    public GameObject spyPrefab;
 
     int agentsRemovalCounter;
 
@@ -57,6 +56,7 @@ public class Government : MonoBehaviour {
     internal void IncreaseAttention()
     {
         attention += 1;
+        FindObjectOfType<Termometer>().SetLevel(attention / 100f);
     }
 
     public void changeGov(int delta)

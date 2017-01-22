@@ -151,6 +151,11 @@ public class Antenna : MonoBehaviour {
 
     private void affectCities()
     {
+        if(FindObjectOfType<CurrentAuditionHolder>().GetCurrentAudition() == null)
+        {
+            return;
+        }
+
         print("Antenna affectCities");
         City[] cities = FindObjectOfType<Cities>().GetCites();
 
