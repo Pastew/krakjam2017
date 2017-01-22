@@ -6,7 +6,6 @@ using UnityEngine;
 public class DataManager : MonoBehaviour {
 
 	void Start () {
-		
 	}
 	
 	void Update () {
@@ -15,6 +14,5 @@ public class DataManager : MonoBehaviour {
 
     internal void Tick()
     {
-
     }
 }

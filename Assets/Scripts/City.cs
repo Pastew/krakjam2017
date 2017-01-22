@@ -20,6 +20,7 @@ public class City : MonoBehaviour {
     private List<int> effectsToRemoveBeforeNextRound;
 
     public float xM, xA;
+    public List<float> moodHistory;
 
     public void RemoveEffect(int id)
     {
@@ -27,6 +28,7 @@ public class City : MonoBehaviour {
     }
 
     void Start () {
+        moodHistory = new List<float>();
         infoPanel = FindObjectOfType<InfoPanel>();
         GetComponentInChildren<TextMesh>().text = gameObject.name;
         setMood(0);
@@ -92,6 +94,7 @@ public class City : MonoBehaviour {
     public void AfterTick()
     {
         setMood(FindObjectOfType<Timer>().GetTick());
+        moodHistory.Add(mood);
     }
 
     void OnMouseDown()
