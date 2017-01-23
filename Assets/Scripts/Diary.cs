@@ -7,7 +7,7 @@ public class Diary : MonoBehaviour {
     TextMesh textMesh;
     Timer timer;
 
-	void Start () {
+	void Awake () {
         textMesh = GetComponentInChildren<TextMesh>();
         timer = FindObjectOfType<Timer>();
 	}
