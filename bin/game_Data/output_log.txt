@@ -17,29 +17,17 @@ Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityE
 Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.059 seconds
+- Completed reload, in  0.079 seconds
 Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\dev\wprowadze do gier\RedWave\bin\game_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.775106 ms
-New spy spawned at (1.0, 3.0)
+UnloadTime: 1.363295 ms
+New spy spawned at (2.0, 5.0)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 3334 -> priority: 1 
-Got force: (304.2, 1956.2)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Got force: (64.7, 1996.9)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-New spy spawned at (1.0, 1.0)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
+  Thread -> id: 30b0 -> priority: 1 
