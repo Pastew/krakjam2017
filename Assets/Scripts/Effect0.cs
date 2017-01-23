@@ -30,6 +30,6 @@ public class Effect0 : Effect {
         float temp = (float)lifeTime;
         float param = 1 + (city.population - 100000) / 225000;
         lifeTime = (int)(param * temp);
-        addition = 30 * ((11 - city.population / 100000) * 0.05 + 0.5);    
+        addition = 6 * ((11 - city.population / 100000) * 0.05 + 0.5);    
     }
 }
