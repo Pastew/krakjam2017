@@ -58,6 +58,7 @@ public class Timer : MonoBehaviour {
         FindObjectOfType<DataManager>().Tick();
         FindObjectOfType<Wallet>().Tick();
         FindObjectOfType<AgentPriceUpdateer>().Tick();
+        FindObjectOfType<InfoPanel>().Tick();
     }
 
     private void UpdateClock()

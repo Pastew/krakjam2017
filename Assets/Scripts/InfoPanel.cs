@@ -6,12 +6,10 @@ using UnityEngine;
 public class InfoPanel : MonoBehaviour {
 
     private TextMesh textMesh;
-    private Animator animator;
-    private bool isVisible = true;
+    private MonoBehaviour currentTarget;
 
     void Start () {
         textMesh = GetComponentInChildren<TextMesh>();
-        animator = GetComponent<Animator>();
     }
 
     public void SetText(string text)
@@ -19,32 +17,24 @@ public class InfoPanel : MonoBehaviour {
         textMesh.text = text;
     }
 
-	void Update () {
-		
-	}
-
     void OnMouseDown()
     {
-        TogglePanel();
     }
 
-    private void TogglePanel()
+    public void Tick()
     {
-        int idleState = Animator.StringToHash("InfoPanelIdle");
-        int hiddenState = Animator.StringToHash("InfoPanelHidden");
-        if (animator.GetCurrentAnimatorStateInfo(0).nameHash == idleState
-            || animator.GetCurrentAnimatorStateInfo(0).nameHash == hiddenState) { 
-            Debug.Log("InfoPanel is not in IDLE state, cant toggle");
-            Debug.Log("It it: " + animator.GetCurrentAnimatorStateInfo(0).nameHash);
-            return;
-        }
+        if(currentTarget != null)
+            currentTarget.Invoke("PopulateInfoPanel", 0);
+    }
 
-        if (this.isVisible == true)
-            animator.SetTrigger("InfoPanelShow");
-        else
-            animator.SetTrigger("InfoPanelHide");
+    internal void SetCurrentTarget(MonoBehaviour newTarget)
+    {
+        currentTarget = newTarget;
+    }
 
-
-        this.isVisible = !this.isVisible;
+    public static bool HasMethod(object objectToCheck, string methodName)
+    {
+        var type = objectToCheck.GetType();
+        return type.GetMethod(methodName) != null;
     }
 }

@@ -153,6 +153,7 @@ public class City : MonoBehaviour {
 
     void OnMouseDown()
     {
+        infoPanel.SetCurrentTarget(this);
         PopulateInfoPanel();
     }
 

@@ -36,6 +36,7 @@ public class Antenna : MonoBehaviour {
     {
         if (Input.GetMouseButtonDown(0))
         {
+            infoPanel.SetCurrentTarget(this);
             PopulateInfoPanel();
             ShowAntennaControlPanel();
             ShowRangeCircle();
