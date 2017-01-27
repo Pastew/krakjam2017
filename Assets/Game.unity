@@ -579,7 +579,7 @@ MonoBehaviour:
   description: Audycjo dodawacz
   affectedCities:
   - {fileID: 468935277}
-  effect: 0
+  effectID: 0
   auditions: 0100000002000000
   date: 1952-05-5
 --- !u!1 &112286134
@@ -944,86 +944,6 @@ MonoBehaviour:
   changeScreenOnScreenEdgeClick: 1
   margin: 15
   buttonToChangeMenu: 2
---- !u!1 &208817129
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 208817130}
-  - component: {fileID: 208817132}
-  - component: {fileID: 208817131}
-  m_Layer: 0
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &208817130
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 208817129}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1478376935}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.9000206, y: 4.034992}
-  m_SizeDelta: {x: 60, y: -32.93}
-  m_Pivot: {x: 0, y: 1}
---- !u!114 &208817131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 208817129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 8e37db8e7fb30df4388627b0160f586b, type: 3}
-    m_FontSize: 9
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Efekty:
-
-    sd
-
-    h
-
-    j'
---- !u!222 &208817132
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 208817129}
 --- !u!1 &258084338
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,11 +985,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a24e0e0cf4f38c42b0627613c54f273, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &261006923 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4022611005424950, guid: 7062955842eb21644b9cd5b39d26889c,
-    type: 2}
-  m_PrefabInternal: {fileID: 990561361}
 --- !u!1 &286662749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,99 +1126,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7,
     type: 2}
   m_PrefabInternal: {fileID: 288072716}
---- !u!1 &304214945
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 304214949}
-  - component: {fileID: 304214948}
-  - component: {fileID: 304214947}
-  - component: {fileID: 304214946}
-  m_Layer: 0
-  m_Name: CityEffectsCanvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &304214946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 304214945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &304214947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 304214945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
---- !u!223 &304214948
-Canvas:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 304214945}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &304214949
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 304214945}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.06751675, y: 0.033965476, z: 0.11339541}
-  m_Children:
-  - {fileID: 1478376935}
-  m_Father: {fileID: 180066061}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.75, y: -0.23}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0, y: 0}
 --- !u!4 &334184333 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7,
@@ -1352,7 +1174,7 @@ MonoBehaviour:
   description: Wszystko
   affectedCities:
   - {fileID: 423985849}
-  effect: 2
+  effectID: 0
   auditions: 010000000200000000000000
   date: 1952-05-5
 --- !u!1 &349679248
@@ -1791,10 +1613,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 558488331}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ed3baacd7a1e874e8e4e0fa07c1bf46, type: 3}
+  m_Script: {fileID: 11500000, guid: 3e84578d21f6e3d4eb6dc0370bbdc541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effects: []
 --- !u!1 &561045573
 GameObject:
   m_ObjectHideFlags: 0
@@ -1918,73 +1739,41 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1719637332}
     m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: m_LocalPosition.x
-      value: -2.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalPosition.y
-      value: 4.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1344373862870286, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
-      propertyPath: m_Name
-      value: Gdansk
-      objectReference: {fileID: 0}
-    - target: {fileID: 114042129987755518, guid: d66e711b273b9674ebf62009168e31d7,
-        type: 2}
-      propertyPath: name
-      value: "Gda\u0144sk"
-      objectReference: {fileID: 0}
     - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
+      propertyPath: m_LocalPosition.x
+      value: 3.43
       objectReference: {fileID: 0}
     - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
       propertyPath: m_LocalPosition.y
       value: 7.01
       objectReference: {fileID: 0}
     - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 3.43
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114042129987755518, guid: d66e711b273b9674ebf62009168e31d7,
-        type: 2}
-      propertyPath: population
-      value: 300000
+    - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 58284076603048536, guid: d66e711b273b9674ebf62009168e31d7,
-        type: 2}
-      propertyPath: m_Radius
+    - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
+      propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114042129987755518, guid: d66e711b273b9674ebf62009168e31d7,
-        type: 2}
-      propertyPath: mood
-      value: -100
+    - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1344373862870286, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
+      propertyPath: m_Name
+      value: Gdansk
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
@@ -2049,7 +1838,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2586,7 +2375,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2657,7 +2446,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0000076293945, y: 0.0000038146973}
+  m_AnchoredPosition: {x: -0.000022888184, y: 0.0000038146973}
   m_SizeDelta: {x: -14.360001, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &626554079
@@ -3019,35 +2808,6 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!1 &721455660
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 721455661}
-  m_Layer: 0
-  m_Name: Effects
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &721455661
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 721455660}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 261006923}
-  m_Father: {fileID: 334184333}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &735127265
 GameObject:
   m_ObjectHideFlags: 0
@@ -3383,7 +3143,7 @@ MonoBehaviour:
   description: "Wyp\u0142ata"
   affectedCities:
   - {fileID: 1888038586}
-  effect: 4
+  effectID: 0
   auditions: 
   date: 1971-06-1
 --- !u!1 &798620565
@@ -3511,7 +3271,7 @@ MonoBehaviour:
   description: "Wyp\u0142ata"
   affectedCities:
   - {fileID: 1888038586}
-  effect: 4
+  effectID: 0
   auditions: 
   date: 1971-08-1
 --- !u!1 &823400039
@@ -3590,7 +3350,7 @@ MonoBehaviour:
   affectedCities:
   - {fileID: 1888038586}
   - {fileID: 468935277}
-  effect: 3
+  effectID: 0
   auditions: 
   date: 1952-05-6
 --- !u!1001 &856777178
@@ -3653,7 +3413,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
       propertyPath: m_LocalPosition.y
@@ -3735,7 +3495,7 @@ MonoBehaviour:
   description: "Wyp\u0142ata"
   affectedCities:
   - {fileID: 1888038586}
-  effect: 4
+  effectID: 0
   auditions: 
   date: 1971-05-1
 --- !u!1 &861774494
@@ -3974,7 +3734,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
       propertyPath: m_LocalPosition.y
@@ -4328,48 +4088,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1e829ec2cd59b5a4c888169b0249253a, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &990561361
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 721455661}
-    m_Modifications:
-    - target: {fileID: 4022611005424950, guid: 7062955842eb21644b9cd5b39d26889c, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4022611005424950, guid: 7062955842eb21644b9cd5b39d26889c, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4022611005424950, guid: 7062955842eb21644b9cd5b39d26889c, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4022611005424950, guid: 7062955842eb21644b9cd5b39d26889c, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4022611005424950, guid: 7062955842eb21644b9cd5b39d26889c, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4022611005424950, guid: 7062955842eb21644b9cd5b39d26889c, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4022611005424950, guid: 7062955842eb21644b9cd5b39d26889c, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4022611005424950, guid: 7062955842eb21644b9cd5b39d26889c, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 7062955842eb21644b9cd5b39d26889c, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1009881325
 GameObject:
@@ -6248,75 +5966,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!1 &1478376934
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1478376935}
-  - component: {fileID: 1478376937}
-  - component: {fileID: 1478376936}
-  m_Layer: 0
-  m_Name: Panel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1478376935
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1478376934}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 208817130}
-  m_Father: {fileID: 304214949}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1478376936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1478376934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.767}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &1478376937
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1478376934}
 --- !u!1001 &1521002275
 Prefab:
   m_ObjectHideFlags: 0
@@ -6359,36 +6008,6 @@ Prefab:
     - target: {fileID: 1344373862870286, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
       propertyPath: m_Name
       value: Warszawa
-      objectReference: {fileID: 0}
-    - target: {fileID: 114042129987755518, guid: d66e711b273b9674ebf62009168e31d7,
-        type: 2}
-      propertyPath: population
-      value: 1000000
-      objectReference: {fileID: 0}
-    - target: {fileID: 58284076603048536, guid: d66e711b273b9674ebf62009168e31d7,
-        type: 2}
-      propertyPath: m_Radius
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 212023672342834394, guid: d66e711b273b9674ebf62009168e31d7,
-        type: 2}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 212023672342834394, guid: d66e711b273b9674ebf62009168e31d7,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 212023672342834394, guid: d66e711b273b9674ebf62009168e31d7,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114042129987755518, guid: d66e711b273b9674ebf62009168e31d7,
-        type: 2}
-      propertyPath: mood
-      value: -100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
@@ -6546,7 +6165,7 @@ MonoBehaviour:
   description: "Prezydent Nixon odwiedzi\u0142 Warszaw\u0119"
   affectedCities:
   - {fileID: 468935277}
-  effect: 5
+  effectID: 0
   auditions: 030000000400000005000000
   date: 1972-05-31
 --- !u!1 &1565549888
@@ -7517,7 +7136,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
       propertyPath: m_LocalPosition.y
@@ -8107,10 +7726,10 @@ Transform:
   - {fileID: 1778000872}
   - {fileID: 1767044353}
   - {fileID: 1691343473}
-  - {fileID: 597736818}
   - {fileID: 128254829}
   - {fileID: 856777179}
   - {fileID: 624812305}
+  - {fileID: 597736818}
   m_Father: {fileID: 1289951009}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8298,7 +7917,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7, type: 2}
       propertyPath: m_LocalPosition.y
@@ -8881,7 +8500,7 @@ MonoBehaviour:
   description: "Wyp\u0142ata"
   affectedCities:
   - {fileID: 1888038586}
-  effect: 4
+  effectID: 0
   auditions: 
   date: 1971-04-1
 --- !u!1 &1897218573
@@ -9002,7 +8621,7 @@ MonoBehaviour:
   description: "Wyp\u0142ata"
   affectedCities:
   - {fileID: 1888038586}
-  effect: 4
+  effectID: 0
   auditions: 
   date: 1971-07-1
 --- !u!1 &1910442686
@@ -9556,7 +9175,7 @@ MonoBehaviour:
   description: "Wyp\u0142ata"
   affectedCities:
   - {fileID: 1888038586}
-  effect: 4
+  effectID: 0
   auditions: 
   date: 1971-09-1
 --- !u!1 &1957025870

@@ -7,7 +7,7 @@ public class GameEvent : MonoBehaviour {
 
     public string description;
     public GameObject[] affectedCities;
-    public int effect;
+    public int effectID;
     public List<int> auditions = null;
     [Tooltip("Format: yyyy-mm-dd")]
     public string date = null;
@@ -39,7 +39,7 @@ public class GameEvent : MonoBehaviour {
         foreach (GameObject go in affectedCities)
         {
             City c = go.GetComponent<City>();
-            c.AddEffect(FindObjectOfType<EffectDatabase>().ProduceEffect(effect));
+            c.AddEffect(effectID);
         }
     }
 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HandLigher : MonoBehaviour {
 
-    Light light;
+    private Light light;
 
     void Start()
     {

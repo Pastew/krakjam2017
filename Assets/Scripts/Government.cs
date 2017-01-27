@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Government : MonoBehaviour {
 
-    int MAX_ATTENTION = 100;
-    int MIN_ATTENTION = 0;
     public int attention;
     public int agents, agentTimer;
     List<GameObject> spies;

@@ -14,10 +14,7 @@ public class City : MonoBehaviour {
     private float delta = 5;
     private int offset;
     private float ownMood;
-
-    private Dictionary<int, Effect> effectsDict;
-
-    private List<int> effectsToRemoveBeforeNextRound;
+    private Effects effects;
 
     public float xM, xA;
 
@@ -66,7 +63,7 @@ public class City : MonoBehaviour {
 
     public void RemoveEffect(int id)
     {
-        effectsToRemoveBeforeNextRound.Add(id);
+        effects.RemoveEffect(id);
     }
 
     void Start () {
@@ -78,8 +75,7 @@ public class City : MonoBehaviour {
         float d = population / 10000 * 6;
         //this.offset = r.nextInt(d.intValue());
         offset = (int)UnityEngine.Random.Range(0f, d);
-        effectsDict = new Dictionary<int, Effect>();
-        effectsToRemoveBeforeNextRound = new List<int>();
+        effects = GetComponentInChildren<Effects>();
     }
 
     public void setMood(int tick)
@@ -119,19 +115,9 @@ public class City : MonoBehaviour {
         xA = -1;
         xM = 1;
 
-        foreach (KeyValuePair<int, Effect> e in effectsDict)
-        {
-            print("City will evaluate effect " + e.Value.id);
-            e.Value.evaluate(this);
-        }
+        GetComponentInChildren<Effects>().EvaluateEffects();
 
         setOwnMood(FindObjectOfType<Timer>().GetTick());
-
-        foreach (int i in effectsToRemoveBeforeNextRound)
-        {
-            effectsDict.Remove(i);
-        }
-        effectsToRemoveBeforeNextRound.Clear();
 
         UpdateColor();
     }
@@ -176,7 +162,7 @@ public class City : MonoBehaviour {
         message += "Nastrój: " + (int)mood + "\n";
         message += "Trend: " + String.Format("{0:0.00}", delta) + "\n";
 
-        message += "Efekty: " + effectsDict.Keys.Count + " \n";
+        message += "Efekty: " + effects.GetActiveEffectsCount() + " \n";
         
         /*foreach (KeyValuePair<int, Effect> e in effectsDict)
         {
@@ -192,18 +178,8 @@ public class City : MonoBehaviour {
         return gameObject.name;
     }
 
-    internal void AddEffect(Effect effect)
+    internal void AddEffect(int effectID)
     {
-        if (effectsDict.ContainsKey(effect.id))
-        {
-            effectsDict[effect.id].counter = 0;
-        }
-        else
-        {
-            Effect newEffect = FindObjectOfType<EffectDatabase>().ProduceEffect(effect.id);
-            newEffect.recalculateData(this);
-            effectsDict.Add(effect.id, newEffect);
-        }
-
+        effects.AddEffectIfNotExistsElseResetCounter(effectID);
     }
 }

@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class ScoreManager : MonoBehaviour {
 
-    int MAX_SCORE = 5250000;
     City[] cities;
     public float previousMonthScore = 0;
     public float todayScore = 0;

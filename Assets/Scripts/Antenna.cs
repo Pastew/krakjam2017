@@ -199,9 +199,9 @@ public class Antenna : MonoBehaviour {
 
     private void AffectCity(City c)
     {
-        Effect effect = FindObjectOfType<CurrentAuditionHolder>().GetCurrentAudition().GetEffect();
+        int effectID = FindObjectOfType<CurrentAuditionHolder>().GetCurrentAudition().GetEffectID();
 
-        c.AddEffect(effect);
+        c.AddEffect(effectID);
     }
 
     private void searchForSpies()

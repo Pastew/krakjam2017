@@ -10,7 +10,7 @@ public class Audition : MonoBehaviour {
     public int id;
     public int[] idsToRemoveWhenChosen;
     public string description = "No description provided";
-    public Effect effect;
+    public int effectID;
 
     private Auditions auditions;
 
@@ -37,8 +37,8 @@ public class Audition : MonoBehaviour {
         FindObjectOfType<CurrentAuditionHolder>().SetCurrentAudition(this);
     }
 
-    internal Effect GetEffect()
+    internal int GetEffectID()
     {
-        return effect;
+        return effectID;
     }
 }

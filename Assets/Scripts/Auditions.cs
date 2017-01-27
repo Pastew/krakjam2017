@@ -32,37 +32,37 @@ public class Auditions : MonoBehaviour {
         switch (i)
         {
             case 0:
-                AddNewAuditionToPanel(0, "Głos wolności", effectDatabase.ProduceEffect(0), new int[] { });
+                AddNewAuditionToPanel(0, "Głos wolności", 0, new int[] { });
                 break;
             case 1:
-                AddNewAuditionToPanel(1, "Głos czynu", effectDatabase.ProduceEffect(1), new int[] { });
+                AddNewAuditionToPanel(1, "Głos czynu", 1, new int[] { });
                 break;
             case 2:
-                AddNewAuditionToPanel(2, "Głos wytrwałości", effectDatabase.ProduceEffect(2), new int[] { });
+                AddNewAuditionToPanel(2, "Głos wytrwałości", 2, new int[] { });
                 break;
             case 3:
-                AddNewAuditionToPanel(3, "Krytyka kapitalizmu", effectDatabase.ProduceEffect(6), new int[] {3,4,5});
+                AddNewAuditionToPanel(3, "Krytyka kapitalizmu", 6, new int[] {3,4,5});
                 break;
             case 4:
-                AddNewAuditionToPanel(4, "Dokument o USA", effectDatabase.ProduceEffect(10), new int[] { 3, 4, 5 });
+                AddNewAuditionToPanel(4, "Dokument o USA", 10, new int[] { 3, 4, 5 });
                 break;
             case 5:
-                AddNewAuditionToPanel(5, "Pocieszenie Narodu", effectDatabase.ProduceEffect(13), new int[] { 3, 4, 5 });
+                AddNewAuditionToPanel(5, "Pocieszenie Narodu", 13, new int[] { 3, 4, 5 });
                 break;
             case 6:
-                AddNewAuditionToPanel(6, "Wsparcie zamachu", effectDatabase.ProduceEffect(7), new int[] { 6, 7, 8 });
+                AddNewAuditionToPanel(6, "Wsparcie zamachu", 7, new int[] { 6, 7, 8 });
                 break;
             case 7:
-                AddNewAuditionToPanel(7, "Potępienie zamachu", effectDatabase.ProduceEffect(8), new int[] { 6, 7, 8 });
+                AddNewAuditionToPanel(7, "Potępienie zamachu", 8, new int[] { 6, 7, 8 });
                 break;
             case 8:
-                AddNewAuditionToPanel(8, "Oszukaj służby", effectDatabase.ProduceEffect(9), new int[] { 6, 7, 8 });
+                AddNewAuditionToPanel(8, "Oszukaj służby", 9, new int[] { 6, 7, 8 });
                 break;
             case 9:
-                AddNewAuditionToPanel(7, "Zachwyt Ameryką", effectDatabase.ProduceEffect(11), new int[] { 11, 12 });
+                AddNewAuditionToPanel(7, "Zachwyt Ameryką", 11, new int[] { 11, 12 });
                 break;
             case 10:
-                AddNewAuditionToPanel(8, "Wyolbrzymienie problemów USA", effectDatabase.ProduceEffect(12), new int[] { 11, 12 });
+                AddNewAuditionToPanel(8, "Wyolbrzymienie problemów USA", 12, new int[] { 11, 12 });
                 break;
         }
     }
@@ -80,7 +80,7 @@ public class Auditions : MonoBehaviour {
         }
     }
 
-    public void AddNewAuditionToPanel(int id, string desc, Effect effect, int[] idsToRemoveWhenChosen )
+    public void AddNewAuditionToPanel(int id, string desc, int effectID, int[] idsToRemoveWhenChosen )
     {
         if (auditionsDict.ContainsKey(id))
             return;
@@ -91,7 +91,7 @@ public class Auditions : MonoBehaviour {
         auditionsDict.Add(id, audition);
         audition.id = id;
         audition.description = desc;
-        audition.effect = effect;
+        audition.effectID = effectID;
         audition.idsToRemoveWhenChosen = idsToRemoveWhenChosen;
         newAudition.GetComponentInChildren<Text>().text = audition.GetDescription();
         Button b = newAudition.GetComponent<Button>();

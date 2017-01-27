@@ -39,7 +39,7 @@ public class GameEventManager : MonoBehaviour {
         GameEvent gameEvent = go.AddComponent<GameEvent>();
         gameEvent.description = description;
         gameEvent.dateTime = datetime;
-        gameEvent.effect = effect;
+        gameEvent.effectID = effect;
         gameEvent.affectedCities = affectedCities;
         gameEvent.auditions = auditions;
         gameEvent.date = datetime.Date.ToString();        
