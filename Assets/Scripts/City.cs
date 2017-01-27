@@ -162,7 +162,7 @@ public class City : MonoBehaviour {
         message += "Nastrój: " + (int)mood + "\n";
         message += "Trend: " + String.Format("{0:0.00}", delta) + "\n";
 
-        message += "Efekty: " + effects.GetActiveEffectsCount() + " \n";
+        message += "Efekty: " + effects.GetActiveEffectsCount() + " [" + effects.GetActiveEffectsListString() + "]\n";
         
         /*foreach (KeyValuePair<int, Effect> e in effectsDict)
         {

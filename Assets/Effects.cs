@@ -61,4 +61,14 @@ public class Effects : MonoBehaviour {
         e.gameObject.transform.parent = transform;
         e.Initialize(city);
     }
+
+    internal string GetActiveEffectsListString()
+    {
+        string result = "";
+        foreach (EffectTemplate e in GetComponentsInChildren<EffectTemplate>()) {
+            result += e.GetID();
+            result += ", ";
+        }
+        return result;
+    }
 }
