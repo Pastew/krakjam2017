@@ -9,10 +9,7 @@ public class Auditions : MonoBehaviour {
     Dictionary<int, Audition> auditionsDict;
     public Button auditionButtonPrefab;
 
-    EffectDatabase effectDatabase;
-
 	void Start () {
-        effectDatabase = FindObjectOfType<EffectDatabase>();
         auditionsDict = new Dictionary<int, Audition>();
         AddNewAuditionToPanel(0);
         AddNewAuditionToPanel(1);
