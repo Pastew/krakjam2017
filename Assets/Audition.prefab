@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224784872640387118}
   - component: {fileID: 222942313228281138}
   - component: {fileID: 114469815981027966}
+  - component: {fileID: 114656358118913568}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -39,13 +40,30 @@ GameObject:
   - component: {fileID: 222097226545481006}
   - component: {fileID: 114290165947605414}
   - component: {fileID: 114821470410259690}
+  - component: {fileID: 114217730632180546}
   m_Layer: 0
-  m_Name: AuditionButton
+  m_Name: Audition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &114217730632180546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1659475602246242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46f565afd1f8c1b468834f009f26a317, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unlocked: 1
+  id: 0
+  idsToRemoveWhenChosen: 
+  description: No description provided
+  effectID: 0
 --- !u!114 &114290165947605414
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -106,6 +124,22 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Antena pierwsza
+--- !u!114 &114656358118913568
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1633835617268976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46f565afd1f8c1b468834f009f26a317, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unlocked: 1
+  id: 0
+  idsToRemoveWhenChosen: 
+  description: No description provided
+  effectID: 0
 --- !u!114 &114821470410259690
 MonoBehaviour:
   m_ObjectHideFlags: 1

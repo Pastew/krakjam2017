@@ -3,16 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Effects : MonoBehaviour {
+public class Effects : MonoBehaviour
+{
 
     EffectFactory effectFactory;
     City city;
 
-	void Awake () {
+    void Awake()
+    {
         effectFactory = FindObjectOfType<EffectFactory>();
         city = GetComponentInParent<City>();
     }
-	
+
     public void EvaluateEffects()
     {
         foreach (EffectTemplate e in GetComponentsInChildren<EffectTemplate>())
@@ -65,7 +67,8 @@ public class Effects : MonoBehaviour {
     internal string GetActiveEffectsListString()
     {
         string result = "";
-        foreach (EffectTemplate e in GetComponentsInChildren<EffectTemplate>()) {
+        foreach (EffectTemplate e in GetComponentsInChildren<EffectTemplate>())
+        {
             result += e.GetID();
             result += ", ";
         }

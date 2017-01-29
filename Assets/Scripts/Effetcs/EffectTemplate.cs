@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EffectTemplate : MonoBehaviour {
+public class EffectTemplate : MonoBehaviour
+{
 
     protected Diary diary;
     protected int id;

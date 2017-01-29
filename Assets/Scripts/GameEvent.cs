@@ -46,7 +46,7 @@ public class GameEvent : MonoBehaviour {
     private void AddAuditions(List<int> auditions)
     {
         foreach (int i in auditions)
-            FindObjectOfType<Auditions>().AddNewAuditionToPanel(i);
+            FindObjectOfType<Auditions>().AddNewAuditionToPanelIfItDoesntExist(i);
     }
 
 }

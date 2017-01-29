@@ -1598,12 +1598,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 558488331}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 743632586}
-  m_RootOrder: 17
+  m_Father: {fileID: 2101056446}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &558488333
 MonoBehaviour:
@@ -2446,7 +2446,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7.17999, y: 0.0000038146973}
+  m_AnchoredPosition: {x: -7.1800337, y: 0.0000038146973}
   m_SizeDelta: {x: -14.360001, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &626554079
@@ -2992,7 +2992,7 @@ Transform:
   - {fileID: 2027415699}
   - {fileID: 1288761651}
   - {fileID: 1280970220}
-  - {fileID: 558488332}
+  - {fileID: 2101056446}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4909,8 +4909,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab412d32dfa60cd46a85e6be2bb5c23a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  auditionButtonPrefab: {fileID: 114821470410259690, guid: f0702dfe226ace1418bed64b3eb75ebb,
-    type: 2}
 --- !u!1 &1153989383
 GameObject:
   m_ObjectHideFlags: 0
@@ -7726,10 +7724,10 @@ Transform:
   - {fileID: 1778000872}
   - {fileID: 1767044353}
   - {fileID: 1691343473}
+  - {fileID: 597736818}
   - {fileID: 128254829}
   - {fileID: 856777179}
   - {fileID: 624812305}
-  - {fileID: 597736818}
   m_Father: {fileID: 1289951009}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8055,6 +8053,48 @@ Transform:
   m_PrefabParentObject: {fileID: 4550497630974130, guid: d66e711b273b9674ebf62009168e31d7,
     type: 2}
   m_PrefabInternal: {fileID: 1778000871}
+--- !u!1 &1780985284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1780985285}
+  - component: {fileID: 1780985286}
+  m_Layer: 0
+  m_Name: AuditionFactory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1780985285
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1780985284}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2101056446}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1780985286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1780985284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7fa9f20acbc00740a7a70c54c6e3da1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auditionPrefab: {fileID: 1659475602246242, guid: f0702dfe226ace1418bed64b3eb75ebb,
+    type: 2}
 --- !u!1 &1781436231
 GameObject:
   m_ObjectHideFlags: 0
@@ -8502,7 +8542,7 @@ MonoBehaviour:
   - {fileID: 1888038586}
   effectID: 0
   auditions: 
-  date: 1971-04-1
+  date: 1972-04-25
 --- !u!1 &1897218573
 GameObject:
   m_ObjectHideFlags: 0
@@ -9797,6 +9837,36 @@ Light:
   m_BounceIntensity: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &2101056445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2101056446}
+  m_Layer: 0
+  m_Name: Factories
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2101056446
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2101056445}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 558488332}
+  - {fileID: 1780985285}
+  m_Father: {fileID: 743632586}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2123220711
 GameObject:
   m_ObjectHideFlags: 0

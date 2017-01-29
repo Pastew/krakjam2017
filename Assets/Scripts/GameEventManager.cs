@@ -23,7 +23,10 @@ public class GameEventManager : MonoBehaviour {
             if (gameEvent.dateTime != null)
             {
                 if (gameEvent.dateTime.Date.Equals(timer.GetDate().Date))
+                {
                     gameEvent.Execute();
+                    print("EXECUTE: " + gameEvent.name);
+                }
 
             }
                 
