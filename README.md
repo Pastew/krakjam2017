@@ -13,4 +13,4 @@ Let the waves of freedom flow!
 
 ## Game screenshoots
 ![Alt text](s1.PNG?raw=true "s1.PNG")  
-![Alt text](s2.PNG?raw=true "s2.jpg")  
+![Alt text](s2.jpg?raw=true "s2.jpg")  
