@@ -1,4 +1,7 @@
-# redwave
+# Krak Jam 2019
+Subject: What home means to you?
+
+## Game we created: Red Wave
 https://globalgamejam.org/2017/games/prl-fm
 
 You're working as a radio broadcasting station operator in soviet-occupied Poland. 
@@ -7,3 +10,7 @@ Will you be smart and brave enough to get rid of this fatal establishment and fi
 Emit proper radio programs to influence people in polish cities, react properly for various fascinating historical (and fictional) events and splendidly avoid government agents, so you don't end up as a public enemy. 
 Become the master of propaganda. 
 Let the waves of freedom flow!
+
+## Game screenshoots
+![Alt text](s1.PNG?raw=true "s1.PNG")  
+![Alt text](s2.PNG?raw=true "s2.PNG")  
