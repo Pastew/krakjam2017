@@ -1,5 +1,5 @@
 # Krak Jam 2017
-Subject: What home means to you?
+Subject: Waves
 
 ## Game we created: Red Wave
 https://globalgamejam.org/2017/games/prl-fm
