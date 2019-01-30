@@ -1,4 +1,4 @@
-# Krak Jam 2019
+# Krak Jam 2017
 Subject: What home means to you?
 
 ## Game we created: Red Wave
@@ -14,3 +14,8 @@ Let the waves of freedom flow!
 ## Game screenshoots
 ![Alt text](s1.PNG?raw=true "s1.PNG")  
 ![Alt text](s2.jpg?raw=true "s2.jpg")  
+
+## Authors
+* [@Sieciesznik](https://github.com/Sieciesznik) - game design, level design, gameplay balancing, music, sounds
+* [@ympek](https://github.com/ympek) - graphics, music, sounds, game design
+* [@Pastew](https://github.com/Pastew) - coding
