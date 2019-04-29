@@ -11,6 +11,9 @@ Emit proper radio programs to influence people in polish cities, react properly 
 Become the master of propaganda. 
 Let the waves of freedom flow!
 
+## Gameplay presentation
+https://youtu.be/OKJAgOTh-co
+
 ## Game screenshoots
 ![Alt text](ss1.PNG?raw=true "ss1.PNG")  
 ![Alt text](ss2.PNG?raw=true "ss2.PNG")  
