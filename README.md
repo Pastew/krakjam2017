@@ -12,8 +12,8 @@ Become the master of propaganda.
 Let the waves of freedom flow!
 
 ## Game screenshoots
-![Alt text](s1.PNG?raw=true "s1.PNG")  
-![Alt text](s2.jpg?raw=true "s2.jpg")  
+![Alt text](ss1.PNG?raw=true "ss1.PNG")  
+![Alt text](ss2.PNG?raw=true "ss2.PNG")  
 
 ## Authors
 * [@Sieciesznik](https://github.com/Sieciesznik) - game design, level design, gameplay balancing, music, sounds
